@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1DEE901B986B650060A7D3 /* Animate_Autolayout_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE8F1B986B650060A7D3 /* Animate_Autolayout_ViewController.m */; };
+		0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE931B986CA40060A7D3 /* VFLExtensionViewController.m */; };
+		0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE971B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m */; };
+		0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE9E1B993F1E0060A7D3 /* RegexTestViewController.m */; };
+		0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEEA11B9942640060A7D3 /* NSString+Regex.m */; };
+		0AE8E1041B99A95D00CCC714 /* AutoLayoutTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8E1031B99A95D00CCC714 /* AutoLayoutTestViewController.m */; };
+		0AE8E1061B99A99100CCC714 /* AutoLayoutTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8E1051B99A99100CCC714 /* AutoLayoutTestViewController.xib */; };
 		0AF4CCF11B92B9C500A5E95F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CCF01B92B9C500A5E95F /* main.m */; };
 		0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CCF31B92B9C500A5E95F /* AppDelegate.m */; };
 		0AF4CCFA1B92B9C500A5E95F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4CCF81B92B9C500A5E95F /* Main.storyboard */; };
@@ -30,6 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A1DEE8E1B986B650060A7D3 /* Animate_Autolayout_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animate_Autolayout_ViewController.h; sourceTree = "<group>"; };
+		0A1DEE8F1B986B650060A7D3 /* Animate_Autolayout_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animate_Autolayout_ViewController.m; sourceTree = "<group>"; };
+		0A1DEE921B986CA40060A7D3 /* VFLExtensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VFLExtensionViewController.h; sourceTree = "<group>"; };
+		0A1DEE931B986CA40060A7D3 /* VFLExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VFLExtensionViewController.m; sourceTree = "<group>"; };
+		0A1DEE951B9872AE0060A7D3 /* LayoutConstriantExtentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutConstriantExtentsion.h; sourceTree = "<group>"; };
+		0A1DEE961B9898B60060A7D3 /* NSLayoutConstraint+Extentsion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Extentsion.h"; sourceTree = "<group>"; };
+		0A1DEE971B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Extentsion.m"; sourceTree = "<group>"; };
+		0A1DEE9D1B993F1E0060A7D3 /* RegexTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexTestViewController.h; sourceTree = "<group>"; };
+		0A1DEE9E1B993F1E0060A7D3 /* RegexTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexTestViewController.m; sourceTree = "<group>"; };
+		0A1DEEA01B9942640060A7D3 /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		0A1DEEA11B9942640060A7D3 /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		0AE8E1021B99A95D00CCC714 /* AutoLayoutTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTestViewController.h; sourceTree = "<group>"; };
+		0AE8E1031B99A95D00CCC714 /* AutoLayoutTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestViewController.m; sourceTree = "<group>"; };
+		0AE8E1051B99A99100CCC714 /* AutoLayoutTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutTestViewController.xib; sourceTree = "<group>"; };
 		0AF4CCEB1B92B9C500A5E95F /* SNTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF4CCEF1B92B9C500A5E95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF4CCF01B92B9C500A5E95F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -70,6 +91,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1DEE8D1B986B370060A7D3 /* Autolayout&Animation */ = {
+			isa = PBXGroup;
+			children = (
+				0A1DEE8E1B986B650060A7D3 /* Animate_Autolayout_ViewController.h */,
+				0A1DEE8F1B986B650060A7D3 /* Animate_Autolayout_ViewController.m */,
+			);
+			path = "Autolayout&Animation";
+			sourceTree = "<group>";
+		};
+		0A1DEE911B986BDC0060A7D3 /* VFLExtention */ = {
+			isa = PBXGroup;
+			children = (
+				0A1DEE921B986CA40060A7D3 /* VFLExtensionViewController.h */,
+				0A1DEE931B986CA40060A7D3 /* VFLExtensionViewController.m */,
+				0A1DEE961B9898B60060A7D3 /* NSLayoutConstraint+Extentsion.h */,
+				0A1DEE971B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m */,
+				0A1DEE951B9872AE0060A7D3 /* LayoutConstriantExtentsion.h */,
+				0AE8E1021B99A95D00CCC714 /* AutoLayoutTestViewController.h */,
+				0AE8E1031B99A95D00CCC714 /* AutoLayoutTestViewController.m */,
+				0AE8E1051B99A99100CCC714 /* AutoLayoutTestViewController.xib */,
+			);
+			path = VFLExtention;
+			sourceTree = "<group>";
+		};
+		0A1DEE9C1B993F1E0060A7D3 /* Regex */ = {
+			isa = PBXGroup;
+			children = (
+				0A1DEE9D1B993F1E0060A7D3 /* RegexTestViewController.h */,
+				0A1DEE9E1B993F1E0060A7D3 /* RegexTestViewController.m */,
+			);
+			path = Regex;
+			sourceTree = "<group>";
+		};
 		0AF4CCE21B92B9C500A5E95F = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +188,9 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				0A1DEE9C1B993F1E0060A7D3 /* Regex */,
+				0A1DEE911B986BDC0060A7D3 /* VFLExtention */,
+				0A1DEE8D1B986B370060A7D3 /* Autolayout&Animation */,
 				0AF4CD171B92BA4200A5E95F /* OC<->C */,
 			);
 			path = Tests;
@@ -156,6 +213,8 @@
 				0AF4CD1F1B92BAF500A5E95F /* VCBased.m */,
 				0AF4CD201B92BAF500A5E95F /* VCBased.h */,
 				0AF4CD251B92BEAB00A5E95F /* Header.h */,
+				0A1DEEA01B9942640060A7D3 /* NSString+Regex.h */,
+				0A1DEEA11B9942640060A7D3 /* NSString+Regex.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -240,6 +299,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AE8E1061B99A99100CCC714 /* AutoLayoutTestViewController.xib in Resources */,
 				0AF4CCFA1B92B9C500A5E95F /* Main.storyboard in Resources */,
 				0AF4CCFF1B92B9C500A5E95F /* LaunchScreen.xib in Resources */,
 				0AF4CCFC1B92B9C500A5E95F /* Images.xcassets in Resources */,
@@ -261,10 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */,
+				0A1DEE901B986B650060A7D3 /* Animate_Autolayout_ViewController.m in Sources */,
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
+				0AE8E1041B99A95D00CCC714 /* AutoLayoutTestViewController.m in Sources */,
+				0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */,
 				0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */,
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
 				0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */,
+				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
+				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
+				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +526,7 @@
 				0AF4CD101B92B9C500A5E95F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AF4CD111B92B9C500A5E95F /* Build configuration list for PBXNativeTarget "SNTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +535,7 @@
 				0AF4CD131B92B9C500A5E95F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

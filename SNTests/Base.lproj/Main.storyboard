@@ -47,5 +47,36 @@
             </objects>
             <point key="canvasLocation" x="-345" y="920"/>
         </scene>
+        <!--Animate Autolayout View Controller-->
+        <scene sceneID="KZH-nD-WzF">
+            <objects>
+                <viewController id="8pw-lT-DWe" customClass="Animate_Autolayout_ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xus-A7-WoB"/>
+                        <viewControllerLayoutGuide type="bottom" id="pxW-xH-GSN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kTk-PU-78J">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8ih-5Q-eAd">
+                                <rect key="frame" x="65" y="28" width="392" height="139"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ncE-zJ-keR">
+                                <rect key="frame" x="65" y="188" width="392" height="139"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gsH-r2-eLQ">
+                                <rect key="frame" x="65" y="347" width="392" height="139"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ULc-Qt-fD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
 </document>

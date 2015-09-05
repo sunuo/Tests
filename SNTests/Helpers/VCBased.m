@@ -29,11 +29,13 @@
     [self.view setBackgroundColor:COLOR_RGB(250, 250, 250)];	// Do any additional setup after loading the view.
 }
 
--(void)showConsole
+-(id)showLabel:(NSString*)description
 {
     UILabel* label=[[UILabel alloc] initWithFrame:CGRectMake(0, 0, DWidth, DHeight)];
     
-    [label setText:@"结果请看控制台"];
+    [label setText:description];
+    
+    [label setNumberOfLines:0];
     
     [label setTextAlignment:NSTextAlignmentCenter];
     
@@ -42,6 +44,13 @@
     [label setFont:[UIFont systemFontOfSize:30.0f]];
     
     [self.view addSubview:label];
+    
+    return label;
+}
+
+-(void)showConsole
+{
+    [self showLabel:@"结果请看控制台"];
 }
 
 - (void)didReceiveMemoryWarning

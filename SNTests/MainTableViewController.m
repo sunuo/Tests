@@ -8,6 +8,7 @@
 
 #import "MainTableViewController.h"
 #import "VCCallEachOtherTest.h"
+#import "VFLExtensionViewController.h"
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
 
@@ -21,6 +22,7 @@
     [super viewDidLoad];
     
     [self.aryContent addObject:@{KEY_NAME:@"OC和C方法相互调用",KEY_CLASS:[VCCallEachOtherTest class]}];
+    [self.aryContent addObject:@{KEY_NAME:@"Autolayout扩展测试",KEY_CLASS:[VFLExtensionViewController class]}];
 }
 
 -(NSMutableArray*)aryContent

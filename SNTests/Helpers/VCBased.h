@@ -10,4 +10,5 @@
 #import "Header.h"
 @interface VCBased : UIViewController
 -(void)showConsole;
+-(id)showLabel:(NSString*)description;
 @end
