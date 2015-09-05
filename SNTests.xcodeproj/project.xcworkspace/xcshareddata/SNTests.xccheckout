@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>49F3B5E7-0E3E-4C7F-AE44-F925170BE530</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SNTests</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9AC4921279B6FC4BC5067F42EB7FACBBB78567BB</key>
+		<string>https://github.com/sunuo/Tests.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SNTests.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9AC4921279B6FC4BC5067F42EB7FACBBB78567BB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sunuo/Tests.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9AC4921279B6FC4BC5067F42EB7FACBBB78567BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9AC4921279B6FC4BC5067F42EB7FACBBB78567BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SNTests</string>
+		</dict>
+	</array>
+</dict>
+</plist>
