@@ -24,6 +24,14 @@
 		0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1A1B92BA7500A5E95F /* VCCallEachOtherTest.m */; };
 		0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1F1B92BAF500A5E95F /* VCBased.m */; };
 		0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */; };
+		772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
+		772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
+		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
+		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
+		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
+		77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77828A171D06D43A00D39FAE /* InfoPlist.strings */; };
+		77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A01CF7E18D00351C41 /* BlockTest.m */; };
+		77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A31CF7E35A00351C41 /* BlockTestMRC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +60,6 @@
 		0AE8E1031B99A95D00CCC714 /* AutoLayoutTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTestViewController.m; sourceTree = "<group>"; };
 		0AE8E1051B99A99100CCC714 /* AutoLayoutTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutTestViewController.xib; sourceTree = "<group>"; };
 		0AF4CCEB1B92B9C500A5E95F /* SNTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AF4CCEF1B92B9C500A5E95F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF4CCF01B92B9C500A5E95F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AF4CCF21B92B9C500A5E95F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AF4CCF31B92B9C500A5E95F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +78,23 @@
 		0AF4CD221B92BBAD00A5E95F /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		0AF4CD251B92BEAB00A5E95F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		772BBF1E1D0FA2B6003B0191 /* VCFontHeightest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFontHeightest.h; sourceTree = "<group>"; };
+		772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFontHeightest.m; sourceTree = "<group>"; };
+		772F00D31CF6AA75009F103A /* VCImageViewModeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageViewModeTest.h; sourceTree = "<group>"; };
+		772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageViewModeTest.m; sourceTree = "<group>"; };
+		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
+		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
+		7749F5601D06D0B100D9A1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77828A0E1D06D1A800D39FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77828A111D06D1DC00D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77828A161D06D43A00D39FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77828A191D06D44700D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		77828A1A1D06D7B800D39FAE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77F8149F1CF7E18D00351C41 /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
+		77F814A01CF7E18D00351C41 /* BlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
+		77F814A21CF7E35A00351C41 /* BlockTestMRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTestMRC.h; sourceTree = "<group>"; };
+		77F814A31CF7E35A00351C41 /* BlockTestMRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTestMRC.m; sourceTree = "<group>"; };
+		77F814A51CF7E36A00351C41 /* BlockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +186,10 @@
 		0AF4CCEE1B92B9C500A5E95F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0AF4CCEF1B92B9C500A5E95F /* Info.plist */,
+				77828A0E1D06D1A800D39FAE /* Info.plist */,
 				0AF4CCF01B92B9C500A5E95F /* main.m */,
+				7749F5611D06D0B100D9A1F0 /* Localizable.strings */,
+				77828A171D06D43A00D39FAE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -188,6 +214,10 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				772BBF1D1D0FA2A1003B0191 /* FontHeightest */,
+				7749F5461D06C9C200D9A1F0 /* LocalizeTest */,
+				77F8149E1CF7E18D00351C41 /* BlockTest */,
+				772F00D21CF6AA57009F103A /* UIImageView */,
 				0A1DEE9C1B993F1E0060A7D3 /* Regex */,
 				0A1DEE911B986BDC0060A7D3 /* VFLExtention */,
 				0A1DEE8D1B986B370060A7D3 /* Autolayout&Animation */,
@@ -217,6 +247,45 @@
 				0A1DEEA11B9942640060A7D3 /* NSString+Regex.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		772BBF1D1D0FA2A1003B0191 /* FontHeightest */ = {
+			isa = PBXGroup;
+			children = (
+				772BBF1E1D0FA2B6003B0191 /* VCFontHeightest.h */,
+				772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */,
+			);
+			path = FontHeightest;
+			sourceTree = "<group>";
+		};
+		772F00D21CF6AA57009F103A /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				772F00D31CF6AA75009F103A /* VCImageViewModeTest.h */,
+				772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		7749F5461D06C9C200D9A1F0 /* LocalizeTest */ = {
+			isa = PBXGroup;
+			children = (
+				7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */,
+				7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */,
+			);
+			path = LocalizeTest;
+			sourceTree = "<group>";
+		};
+		77F8149E1CF7E18D00351C41 /* BlockTest */ = {
+			isa = PBXGroup;
+			children = (
+				77F8149F1CF7E18D00351C41 /* BlockTest.h */,
+				77F814A01CF7E18D00351C41 /* BlockTest.m */,
+				77F814A21CF7E35A00351C41 /* BlockTestMRC.h */,
+				77F814A31CF7E35A00351C41 /* BlockTestMRC.m */,
+				77F814A51CF7E36A00351C41 /* BlockHeader.h */,
+			);
+			path = BlockTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +351,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hant-TW",
+				"zh-Hans",
 			);
 			mainGroup = 0AF4CCE21B92B9C500A5E95F;
 			productRefGroup = 0AF4CCEC1B92B9C500A5E95F /* Products */;
@@ -299,7 +371,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */,
+				77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */,
 				0AE8E1061B99A99100CCC714 /* AutoLayoutTestViewController.xib in Resources */,
+				77828A0F1D06D1A800D39FAE /* Info.plist in Resources */,
 				0AF4CCFA1B92B9C500A5E95F /* Main.storyboard in Resources */,
 				0AF4CCFF1B92B9C500A5E95F /* LaunchScreen.xib in Resources */,
 				0AF4CCFC1B92B9C500A5E95F /* Images.xcassets in Resources */,
@@ -327,11 +402,16 @@
 				0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */,
 				0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */,
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
+				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
+				772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */,
 				0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */,
+				772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */,
 				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
+				77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */,
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
+				77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +448,25 @@
 				0AF4CCFE1B92B9C500A5E95F /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		7749F5611D06D0B100D9A1F0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7749F5601D06D0B100D9A1F0 /* Base */,
+				77828A111D06D1DC00D39FAE /* zh-Hant */,
+				77828A1A1D06D7B800D39FAE /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		77828A171D06D43A00D39FAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77828A161D06D43A00D39FAE /* Base */,
+				77828A191D06D44700D39FAE /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

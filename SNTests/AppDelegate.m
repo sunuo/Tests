@@ -17,6 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    
+  
+        NSArray *languages = [NSLocale preferredLanguages];
+        NSString *currentLanguage = [languages objectAtIndex:0];
+        NSLog( @"%@\n: %@" , languages,currentLanguage);
+        
+//    }
     // Override point for customization after application launch.
 //    NSDictionary* dicview=@{@"v1":[[UIView alloc] init],@"v2":[[UIView alloc] init]};
 

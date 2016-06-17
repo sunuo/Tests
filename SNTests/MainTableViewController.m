@@ -9,8 +9,15 @@
 #import "MainTableViewController.h"
 #import "VCCallEachOtherTest.h"
 #import "VFLExtensionViewController.h"
+#import "VCImageViewModeTest.h"//测试图片显示mode
+#import "BlockTest.h"
+#import "BlockTestMRC.h"
+#import "VCLocalizeTest.h"
+#import "VCFontHeightest.h"
+
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
+#define ADD_CONTROLLER(key,class) [self.aryContent addObject:@{KEY_NAME:(key),KEY_CLASS:(class)}];
 
 @interface MainTableViewController ()
 @property(nonatomic,retain)NSMutableArray* aryContent;
@@ -23,6 +30,11 @@
     
     [self.aryContent addObject:@{KEY_NAME:@"OC和C方法相互调用",KEY_CLASS:[VCCallEachOtherTest class]}];
     [self.aryContent addObject:@{KEY_NAME:@"Autolayout扩展测试",KEY_CLASS:[VFLExtensionViewController class]}];
+    [self.aryContent addObject:@{KEY_NAME:@"图片显示方式测试",KEY_CLASS:[VCImageViewModeTest class]}];
+    [self.aryContent addObject:@{KEY_NAME:@"Block实验 ARC",KEY_CLASS:[BlockTest class]}];
+    [self.aryContent addObject:@{KEY_NAME:@"Block实验 MRC",KEY_CLASS:[BlockTestMRC class]}];
+    ADD_CONTROLLER(@"本地化测试",[VCLocalizeTest class]);
+    ADD_CONTROLLER(@"语言高度测试", [VCFontHeightest class]);
 }
 
 -(NSMutableArray*)aryContent
