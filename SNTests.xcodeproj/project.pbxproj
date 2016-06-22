@@ -24,12 +24,18 @@
 		0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1A1B92BA7500A5E95F /* VCCallEachOtherTest.m */; };
 		0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1F1B92BAF500A5E95F /* VCBased.m */; };
 		0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */; };
+		770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 770C41111D17E7D200FFE677 /* VCTagTest.m */; };
 		772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
 		772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
 		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
 		77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77828A171D06D43A00D39FAE /* InfoPlist.strings */; };
+		77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ED44C71D13A89F00A4277B /* VCPIPTest.m */; };
+		77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77ED44C91D13AA5800A4277B /* samplemovie.mov */; };
+		77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE861D1ABC6700153981 /* VCStripViewTest.m */; };
+		77EFCE8B1D1ABC9800153981 /* QYStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE8A1D1ABC9800153981 /* QYStripView.m */; };
+		77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */; };
 		77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A01CF7E18D00351C41 /* BlockTest.m */; };
 		77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A31CF7E35A00351C41 /* BlockTestMRC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
@@ -78,18 +84,28 @@
 		0AF4CD221B92BBAD00A5E95F /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		0AF4CD251B92BEAB00A5E95F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		770C41101D17E7D200FFE677 /* VCTagTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTagTest.h; sourceTree = "<group>"; };
+		770C41111D17E7D200FFE677 /* VCTagTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTagTest.m; sourceTree = "<group>"; };
 		772BBF1E1D0FA2B6003B0191 /* VCFontHeightest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFontHeightest.h; sourceTree = "<group>"; };
 		772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFontHeightest.m; sourceTree = "<group>"; };
 		772F00D31CF6AA75009F103A /* VCImageViewModeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageViewModeTest.h; sourceTree = "<group>"; };
 		772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageViewModeTest.m; sourceTree = "<group>"; };
 		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
-		7749F5601D06D0B100D9A1F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		77828A0E1D06D1A800D39FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77828A111D06D1DC00D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		77828A161D06D43A00D39FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		77828A191D06D44700D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		77828A1A1D06D7B800D39FAE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77ED44C61D13A89F00A4277B /* VCPIPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPIPTest.h; sourceTree = "<group>"; };
+		77ED44C71D13A89F00A4277B /* VCPIPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPIPTest.m; sourceTree = "<group>"; };
+		77ED44C91D13AA5800A4277B /* samplemovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = samplemovie.mov; sourceTree = "<group>"; };
+		77EFCE851D1ABC6700153981 /* VCStripViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCStripViewTest.h; sourceTree = "<group>"; };
+		77EFCE861D1ABC6700153981 /* VCStripViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCStripViewTest.m; sourceTree = "<group>"; };
+		77EFCE891D1ABC9800153981 /* QYStripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripView.h; sourceTree = "<group>"; };
+		77EFCE8A1D1ABC9800153981 /* QYStripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStripView.m; sourceTree = "<group>"; };
+		77EFCE8C1D1ABCCE00153981 /* QYStripProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripProtocol.h; sourceTree = "<group>"; };
+		77EFCE8D1D1AC17E00153981 /* QYStripViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripViewContainer.h; sourceTree = "<group>"; };
+		77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStripViewContainer.m; sourceTree = "<group>"; };
 		77F8149F1CF7E18D00351C41 /* BlockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTest.h; sourceTree = "<group>"; };
 		77F814A01CF7E18D00351C41 /* BlockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTest.m; sourceTree = "<group>"; };
 		77F814A21CF7E35A00351C41 /* BlockTestMRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTestMRC.h; sourceTree = "<group>"; };
@@ -214,6 +230,9 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				77EFCE841D1ABC4100153981 /* StripView */,
+				770C410F1D17E7C300FFE677 /* TagTest */,
+				77ED44C51D13A88F00A4277B /* PIPTest */,
 				772BBF1D1D0FA2A1003B0191 /* FontHeightest */,
 				7749F5461D06C9C200D9A1F0 /* LocalizeTest */,
 				77F8149E1CF7E18D00351C41 /* BlockTest */,
@@ -249,6 +268,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		770C410F1D17E7C300FFE677 /* TagTest */ = {
+			isa = PBXGroup;
+			children = (
+				770C41101D17E7D200FFE677 /* VCTagTest.h */,
+				770C41111D17E7D200FFE677 /* VCTagTest.m */,
+			);
+			path = TagTest;
+			sourceTree = "<group>";
+		};
 		772BBF1D1D0FA2A1003B0191 /* FontHeightest */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +302,38 @@
 				7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */,
 			);
 			path = LocalizeTest;
+			sourceTree = "<group>";
+		};
+		77ED44C51D13A88F00A4277B /* PIPTest */ = {
+			isa = PBXGroup;
+			children = (
+				77ED44C91D13AA5800A4277B /* samplemovie.mov */,
+				77ED44C61D13A89F00A4277B /* VCPIPTest.h */,
+				77ED44C71D13A89F00A4277B /* VCPIPTest.m */,
+			);
+			path = PIPTest;
+			sourceTree = "<group>";
+		};
+		77EFCE841D1ABC4100153981 /* StripView */ = {
+			isa = PBXGroup;
+			children = (
+				77EFCE881D1ABC8400153981 /* QYStripView */,
+				77EFCE851D1ABC6700153981 /* VCStripViewTest.h */,
+				77EFCE861D1ABC6700153981 /* VCStripViewTest.m */,
+			);
+			path = StripView;
+			sourceTree = "<group>";
+		};
+		77EFCE881D1ABC8400153981 /* QYStripView */ = {
+			isa = PBXGroup;
+			children = (
+				77EFCE891D1ABC9800153981 /* QYStripView.h */,
+				77EFCE8A1D1ABC9800153981 /* QYStripView.m */,
+				77EFCE8C1D1ABCCE00153981 /* QYStripProtocol.h */,
+				77EFCE8D1D1AC17E00153981 /* QYStripViewContainer.h */,
+				77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */,
+			);
+			path = QYStripView;
 			sourceTree = "<group>";
 		};
 		77F8149E1CF7E18D00351C41 /* BlockTest */ = {
@@ -349,7 +409,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 				"zh-Hant",
 				"zh-Hant-TW",
@@ -372,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */,
+				77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */,
 				77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */,
 				0AE8E1061B99A99100CCC714 /* AutoLayoutTestViewController.xib in Resources */,
 				77828A0F1D06D1A800D39FAE /* Info.plist in Resources */,
@@ -397,21 +457,26 @@
 			files = (
 				0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */,
 				0A1DEE901B986B650060A7D3 /* Animate_Autolayout_ViewController.m in Sources */,
+				77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */,
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
 				0AE8E1041B99A95D00CCC714 /* AutoLayoutTestViewController.m in Sources */,
 				0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */,
 				0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */,
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
 				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
+				770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */,
 				772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */,
 				0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */,
 				772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */,
 				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
 				77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */,
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
+				77EFCE8B1D1ABC9800153981 /* QYStripView.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
+				77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */,
 				77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */,
+				77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +518,6 @@
 		7749F5611D06D0B100D9A1F0 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7749F5601D06D0B100D9A1F0 /* Base */,
 				77828A111D06D1DC00D39FAE /* zh-Hant */,
 				77828A1A1D06D7B800D39FAE /* zh-Hans */,
 			);
@@ -463,7 +527,6 @@
 		77828A171D06D43A00D39FAE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77828A161D06D43A00D39FAE /* Base */,
 				77828A191D06D44700D39FAE /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
@@ -557,8 +620,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -567,8 +632,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SNTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
