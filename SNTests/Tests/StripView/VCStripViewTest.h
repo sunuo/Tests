@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "QYStripViewContainer.h"
+#import "QYStripButton.h"
 @interface VCStripViewTest : UIViewController
 
 @end

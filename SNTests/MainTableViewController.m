@@ -15,6 +15,7 @@
 #import "VCLocalizeTest.h"
 #import "VCFontHeightest.h"
 #import "VCPIPTest.h"
+#import "VCStripViewTest.h"
 
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
@@ -37,6 +38,7 @@
     ADD_CONTROLLER(@"本地化测试",[VCLocalizeTest class]);
     ADD_CONTROLLER(@"语言高度测试", [VCFontHeightest class]);
     ADD_CONTROLLER(@"画中画", [VCPIPTest class]);
+    ADD_CONTROLLER(@"StripVIew", [VCStripViewTest class]);
 }
 
 -(NSMutableArray*)aryContent

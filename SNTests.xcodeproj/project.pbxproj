@@ -27,6 +27,7 @@
 		770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 770C41111D17E7D200FFE677 /* VCTagTest.m */; };
 		772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
 		772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
+		772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 772FC3F61D1B9FD10054ED4A /* QYStripButton.m */; };
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
 		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
@@ -34,7 +35,6 @@
 		77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ED44C71D13A89F00A4277B /* VCPIPTest.m */; };
 		77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77ED44C91D13AA5800A4277B /* samplemovie.mov */; };
 		77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE861D1ABC6700153981 /* VCStripViewTest.m */; };
-		77EFCE8B1D1ABC9800153981 /* QYStripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE8A1D1ABC9800153981 /* QYStripView.m */; };
 		77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */; };
 		77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A01CF7E18D00351C41 /* BlockTest.m */; };
 		77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A31CF7E35A00351C41 /* BlockTestMRC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -90,6 +90,8 @@
 		772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFontHeightest.m; sourceTree = "<group>"; };
 		772F00D31CF6AA75009F103A /* VCImageViewModeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageViewModeTest.h; sourceTree = "<group>"; };
 		772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageViewModeTest.m; sourceTree = "<group>"; };
+		772FC3F51D1B9FD10054ED4A /* QYStripButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripButton.h; sourceTree = "<group>"; };
+		772FC3F61D1B9FD10054ED4A /* QYStripButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStripButton.m; sourceTree = "<group>"; };
 		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
 		77828A0E1D06D1A800D39FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,8 +103,6 @@
 		77ED44C91D13AA5800A4277B /* samplemovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = samplemovie.mov; sourceTree = "<group>"; };
 		77EFCE851D1ABC6700153981 /* VCStripViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCStripViewTest.h; sourceTree = "<group>"; };
 		77EFCE861D1ABC6700153981 /* VCStripViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCStripViewTest.m; sourceTree = "<group>"; };
-		77EFCE891D1ABC9800153981 /* QYStripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripView.h; sourceTree = "<group>"; };
-		77EFCE8A1D1ABC9800153981 /* QYStripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStripView.m; sourceTree = "<group>"; };
 		77EFCE8C1D1ABCCE00153981 /* QYStripProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripProtocol.h; sourceTree = "<group>"; };
 		77EFCE8D1D1AC17E00153981 /* QYStripViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripViewContainer.h; sourceTree = "<group>"; };
 		77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYStripViewContainer.m; sourceTree = "<group>"; };
@@ -327,11 +327,11 @@
 		77EFCE881D1ABC8400153981 /* QYStripView */ = {
 			isa = PBXGroup;
 			children = (
-				77EFCE891D1ABC9800153981 /* QYStripView.h */,
-				77EFCE8A1D1ABC9800153981 /* QYStripView.m */,
-				77EFCE8C1D1ABCCE00153981 /* QYStripProtocol.h */,
+				772FC3F51D1B9FD10054ED4A /* QYStripButton.h */,
+				772FC3F61D1B9FD10054ED4A /* QYStripButton.m */,
 				77EFCE8D1D1AC17E00153981 /* QYStripViewContainer.h */,
 				77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */,
+				77EFCE8C1D1ABCCE00153981 /* QYStripProtocol.h */,
 			);
 			path = QYStripView;
 			sourceTree = "<group>";
@@ -470,8 +470,8 @@
 				772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */,
 				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
 				77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */,
+				772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */,
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
-				77EFCE8B1D1ABC9800153981 /* QYStripView.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
 				77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */,
