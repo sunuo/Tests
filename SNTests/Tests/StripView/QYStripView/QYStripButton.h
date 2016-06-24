@@ -10,6 +10,8 @@
 
 #import "QYStripProtocol.h"
 
+#import "UIView+chain.h"
+
 @interface QYStripButton : UIButton <QYStripProtocol>
 
 @property(nonatomic,assign)StripDirection s_Direction;//默认为StripDirectionHorizonFromLeft
@@ -18,4 +20,13 @@
 @property(nonatomic,assign)NSInteger s_index;//排序标记
 @property(nonatomic,assign)BOOL s_Hidden;//是否隐藏 用来代替 view hidden
 @property(nonatomic,assign)BOOL s_autoResize;//自动调整大小
+@property(nonatomic,assign)CGRect s_frame;
+
+-(id)setViewIndex:(NSInteger)index;
+-(id)setViewOutsets:(StripEdgeInsets)outsets;
+-(id)setViewInsets:(StripEdgeInsets)insets;
+-(id)setViewDirection:(StripDirection)direction;
+-(id)setViewAutoResize:(BOOL)resize;
+-(id)setViewHide:(BOOL)hide;
+-(id)setViewFrame:(CGRect)frame;
 @end

@@ -19,6 +19,7 @@
 @property(nonatomic,assign)NSInteger s_index;//排序标记
 @property(nonatomic,assign)BOOL s_Hidden;//是否隐藏 用来代替 view hidden
 @property(nonatomic,assign)BOOL s_autoResize;//自动调整大小
+@property(nonatomic,assign)CGRect s_frame;
 
 -(void)addStripObject:(UIView<QYStripProtocol>*)view;//添加控件; 必须保证是NSObject类型
 -(UIView<QYStripProtocol>*)objectAtIndex:(NSInteger)index;

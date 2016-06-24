@@ -16,7 +16,7 @@
 #import "VCFontHeightest.h"
 #import "VCPIPTest.h"
 #import "VCStripViewTest.h"
-
+#import "VCKVOTest.h"
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
 #define ADD_CONTROLLER(key,class) [self.aryContent addObject:@{KEY_NAME:(key),KEY_CLASS:(class)}];
@@ -30,6 +30,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    ADD_CONTROLLER(@"KVO test",[VCKVOTest class]);
+    ADD_CONTROLLER(@"StripVIew", [VCStripViewTest class]);
     ADD_CONTROLLER(@"OC和C方法相互调用",[VCCallEachOtherTest class]);
     ADD_CONTROLLER(@"Autolayout扩展测试",[VFLExtensionViewController class]);
     ADD_CONTROLLER(@"图片显示方式测试",[VCImageViewModeTest class]);
@@ -38,7 +40,6 @@
     ADD_CONTROLLER(@"本地化测试",[VCLocalizeTest class]);
     ADD_CONTROLLER(@"语言高度测试", [VCFontHeightest class]);
     ADD_CONTROLLER(@"画中画", [VCPIPTest class]);
-    ADD_CONTROLLER(@"StripVIew", [VCStripViewTest class]);
 }
 
 -(NSMutableArray*)aryContent

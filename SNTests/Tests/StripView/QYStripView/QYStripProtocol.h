@@ -9,10 +9,20 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+//#define KVO
+#define KVO_S_FRAME @"s_frame"
+#define KVO_S_INSETS @"s_insets"
+#define KVO_S_OUTSETS @"s_outsets"
+#define KVO_S_DIRECTION @"s_Direction"
+#define KVO_S_HIDDEN @"s_Hidden"
+#define KVO_S_INDEX @"s_index"
+
+//macro
 #define StripEdgeInsets UIEdgeInsets
-#define StripInsets(top,left,bottom,right) UIEdgeInsetsMake(top, left, bottom, right)
-#define VerticalInsets(top,bottom) UIEdgeInsetsMake(top, 0, bottom, 0)
-#define HorizonInsets(left,right) UIEdgeInsetsMake(0, left, 0, right)
+#define StripInsets(top,left,bottom,right) (UIEdgeInsetsMake(top, left, bottom, right))
+#define VerticalInsets(top,bottom) (UIEdgeInsetsMake(top, 0, bottom, 0))
+#define HorizonInsets(left,right) (UIEdgeInsetsMake(0, left, 0, right))
+#define StripInsetsEqual(left,right) (UIEdgeInsetsEqualToEdgeInsets(left, right))
 
 typedef enum
 {
@@ -31,6 +41,7 @@ typedef enum
 @property(nonatomic,assign)NSInteger s_index;//唯一标记 用来排序
 @property(nonatomic,assign)BOOL s_Hidden;//是否隐藏 用来代替 view hidden
 @property(nonatomic,assign)BOOL s_autoResize;//自动调整大小
+@property(nonatomic,assign)CGRect s_frame;//更改frame
 
 @optional
 -(void)addStripObject:(UIView<QYStripProtocol>*)view;//添加控件; 必须保证是NSObject类型

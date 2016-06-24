@@ -53,7 +53,8 @@
     }
     [_viewArray addObject:view];
     
-    [view  addObserver:self forKeyPath:@"s_Hidden" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:NULL];
+    [view  addObserver:self forKeyPath:KVO_S_HIDDEN options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:NULL];
+    [view  addObserver:self forKeyPath:KVO_S_FRAME options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:NULL];
     
     [self addSubview:view];
     
@@ -76,7 +77,8 @@
 {
     if ([_viewArray containsObject:view]) {
         
-        [view removeObserver:self forKeyPath:@"s_Hidden" context:NULL];
+        [view removeObserver:self forKeyPath:KVO_S_HIDDEN context:NULL];
+        [view removeObserver:self forKeyPath:KVO_S_FRAME context:NULL];
         
         [view removeFromSuperview];
     }
@@ -270,7 +272,9 @@
         
         if ([_viewArray containsObject:view]) {
             
-            [view removeObserver:self forKeyPath:@"s_Hidden" context:NULL];
+            [view removeObserver:self forKeyPath:KVO_S_HIDDEN context:NULL];
+            [view removeObserver:self forKeyPath:KVO_S_FRAME context:NULL];
+
         }
     }
     [_viewArray removeAllObjects];
@@ -279,7 +283,7 @@
 
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSString *,id> *)change context:(void *)context
 {
-    if ([keyPath isEqualToString:@"s_Hidden"]) {
+    if ([keyPath isEqualToString:KVO_S_HIDDEN]) {
         
         [self recalculateViewsIfNeeded];
         
@@ -295,17 +299,17 @@
 -(void)setS_Hidden:(BOOL)s_Hidden
 {
     if (_s_Hidden!=s_Hidden) {
-        [self willChangeValueForKey:@"s_Hidden"];
+        [self willChangeValueForKey:KVO_S_HIDDEN];
         _s_Hidden=s_Hidden;
         self.hidden=s_Hidden;
-        [self didChangeValueForKey:@"s_Hidden"];
+        [self didChangeValueForKey:KVO_S_HIDDEN];
     }
 }
 
 + (BOOL)automaticallyNotifiesObserversForKey:(NSString *)theKey {
     
     BOOL automatic = NO;
-    if ([theKey isEqualToString:@"s_Hidden"]) {
+    if ([theKey isEqualToString:KVO_S_HIDDEN]) {
         automatic = NO;
     }
     else {
