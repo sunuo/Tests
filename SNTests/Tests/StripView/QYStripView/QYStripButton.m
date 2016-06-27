@@ -22,47 +22,47 @@
 }
 */
 
--(id)setViewIndex:(NSInteger)index
-{
-    self.s_index=index;
-    return self;
-}
--(id)setViewOutsets:(StripEdgeInsets)outsets
-{
-    self.s_outsets=outsets;
-    return self;
-}
--(id)setViewInsets:(StripEdgeInsets)insets
-{
-    self.s_insets=insets;
-    return self;
-}
-
--(id)setViewDirection:(StripDirection)direction
-{
-    self.s_Direction=direction;
-    return self;
-}
-
--(id)setViewHide:(BOOL)hide
-{
-    self.s_Hidden=hide;
-    return self;
-}
-
--(id)setViewFrame:(CGRect)frame
-{
-    [self willChangeValueForKey:KVO_S_FRAME];
-    self.s_frame=frame;
-    [self didChangeValueForKey:KVO_S_FRAME];
-    return self;
-}
-//除了自动resize 其他都需要kvo
--(id)setViewAutoResize:(BOOL)resize
-{
-    self.s_autoResize=resize;
-    return self;
-}
+//-(id)setViewIndex:(NSInteger)index
+//{
+//    self.s_index=index;
+//    return self;
+//}
+//-(id)setViewOutsets:(StripEdgeInsets)outsets
+//{
+//    self.s_outsets=outsets;
+//    return self;
+//}
+//-(id)setViewInsets:(StripEdgeInsets)insets
+//{
+//    self.s_insets=insets;
+//    return self;
+//}
+//
+//-(id)setViewDirection:(StripDirection)direction
+//{
+//    self.s_direction=direction;
+//    return self;
+//}
+//
+//-(id)setViewHide:(BOOL)hide
+//{
+//    self.s_hidden=hide;
+//    return self;
+//}
+//
+//-(id)setViewFrame:(CGRect)frame
+//{
+//    [self willChangeValueForKey:KVO_S_FRAME];
+//    self.s_frame=frame;
+//    [self didChangeValueForKey:KVO_S_FRAME];
+//    return self;
+//}
+////除了自动resize 其他都需要kvo
+//-(id)setViewAutoResize:(BOOL)resize
+//{
+//    self.s_autoResize=resize;
+//    return self;
+//}
 
 #pragma mark -- kvo
 
@@ -100,23 +100,23 @@
     }
 }
 
--(void)setS_Direction:(StripDirection)s_Direction
+-(void)setS_direction:(StripDirection)s_Direction
 {
-    if (_s_Direction!=s_Direction) {
+    if (_s_direction!=s_Direction) {
         
         [self willChangeValueForKey:KVO_S_DIRECTION];
-        _s_Direction=s_Direction;
+        _s_direction=s_Direction;
         [self didChangeValueForKey:KVO_S_DIRECTION];
         
         
     }
 }
 
--(void)setS_Hidden:(BOOL)s_Hidden
+-(void)setS_hidden:(BOOL)s_Hidden
 {//mannual kVO  
-    if (_s_Hidden!=s_Hidden) {
+    if (_s_hidden!=s_Hidden) {
         [self willChangeValueForKey:KVO_S_HIDDEN];
-        _s_Hidden=s_Hidden;
+        _s_hidden=s_Hidden;
         self.hidden=s_Hidden;
         [self didChangeValueForKey:KVO_S_HIDDEN];
     }
@@ -136,7 +136,13 @@
 + (BOOL)automaticallyNotifiesObserversForKey:(NSString *)theKey {
     
     BOOL automatic = NO;
-    if ([theKey isEqualToString:KVO_S_HIDDEN]) {
+    if ([theKey isEqualToString:KVO_S_FRAME]||
+        [theKey isEqualToString:KVO_S_INSETS]||
+        [theKey isEqualToString:KVO_S_OUTSETS]||
+        [theKey isEqualToString:KVO_S_DIRECTION]||
+        [theKey isEqualToString:KVO_S_HIDDEN]||
+        [theKey isEqualToString:KVO_S_INDEX]
+        ) {
         automatic = NO;
     }
     else {
@@ -154,4 +160,5 @@
 -(void)recalculateViewsIfNeeded{};
 -(void)removeSelf{};
 -(void)adjustToContentSize{};
+-(void)removeAll{};
 @end

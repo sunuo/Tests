@@ -13,8 +13,8 @@
 #define KVO_S_FRAME @"s_frame"
 #define KVO_S_INSETS @"s_insets"
 #define KVO_S_OUTSETS @"s_outsets"
-#define KVO_S_DIRECTION @"s_Direction"
-#define KVO_S_HIDDEN @"s_Hidden"
+#define KVO_S_DIRECTION @"s_direction"
+#define KVO_S_HIDDEN @"s_hidden"
 #define KVO_S_INDEX @"s_index"
 
 //macro
@@ -35,11 +35,11 @@ typedef enum
 @protocol QYStripProtocol <NSObject>
 
 @required
-@property(nonatomic,assign)StripDirection s_Direction;//默认为StripDirectionHorizonFromLeft
+@property(nonatomic,assign)StripDirection s_direction;//默认为StripDirectionHorizonFromLeft
 @property(nonatomic,assign)StripEdgeInsets s_insets;//内边缘
 @property(nonatomic,assign)StripEdgeInsets s_outsets;//外边缘
 @property(nonatomic,assign)NSInteger s_index;//唯一标记 用来排序
-@property(nonatomic,assign)BOOL s_Hidden;//是否隐藏 用来代替 view hidden
+@property(nonatomic,assign)BOOL s_hidden;//是否隐藏 用来代替 view hidden
 @property(nonatomic,assign)BOOL s_autoResize;//自动调整大小
 @property(nonatomic,assign)CGRect s_frame;//更改frame
 
@@ -48,6 +48,7 @@ typedef enum
 -(UIView<QYStripProtocol>*)objectAtIndex:(NSInteger)index;//index 指的是 s_index
 -(void)removeStripObject:(UIView<QYStripProtocol>*)view;//删除控件; 必须保证是NSObject类型
 -(void)removeStripObjectAtIndex:(NSInteger)index;//删除控件 index 指的是 s_index
+-(void)removeAll;//删除控件 index 指的是 s_index
 -(void)hideStripObjectAtIndex:(NSInteger)index;//隐藏控件 index 指的是 s_index
 -(void)hideStripObject:(UIView<QYStripProtocol>*)view;
 -(void)recalculateViewsIfNeeded;//立刻重新排列控件

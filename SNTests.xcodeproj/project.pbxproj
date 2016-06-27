@@ -25,6 +25,10 @@
 		0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1F1B92BAF500A5E95F /* VCBased.m */; };
 		0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */; };
 		770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 770C41111D17E7D200FFE677 /* VCTagTest.m */; };
+		7721E3371D21120D007537D6 /* collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3331D21120D007537D6 /* collection.png */; };
+		7721E3381D21120D007537D6 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3341D21120D007537D6 /* favorite.png */; };
+		7721E3391D21120D007537D6 /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3351D21120D007537D6 /* push.png */; };
+		7721E33A1D21120D007537D6 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3361D21120D007537D6 /* share.png */; };
 		772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
 		772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
 		772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 772FC3F61D1B9FD10054ED4A /* QYStripButton.m */; };
@@ -88,6 +92,10 @@
 		0AF4CD251B92BEAB00A5E95F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		770C41101D17E7D200FFE677 /* VCTagTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTagTest.h; sourceTree = "<group>"; };
 		770C41111D17E7D200FFE677 /* VCTagTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTagTest.m; sourceTree = "<group>"; };
+		7721E3331D21120D007537D6 /* collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collection.png; sourceTree = "<group>"; };
+		7721E3341D21120D007537D6 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
+		7721E3351D21120D007537D6 /* push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push.png; sourceTree = "<group>"; };
+		7721E3361D21120D007537D6 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		772BBF1E1D0FA2B6003B0191 /* VCFontHeightest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFontHeightest.h; sourceTree = "<group>"; };
 		772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFontHeightest.m; sourceTree = "<group>"; };
 		772F00D31CF6AA75009F103A /* VCImageViewModeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageViewModeTest.h; sourceTree = "<group>"; };
@@ -96,7 +104,7 @@
 		772FC3F61D1B9FD10054ED4A /* QYStripButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = QYStripButton.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
-		777A71911D1CC8FC001D2F4A /* UIView+chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+chain.h"; sourceTree = "<group>"; };
+		777A71911D1CC8FC001D2F4A /* QYStripView+chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QYStripView+chain.h"; sourceTree = "<group>"; };
 		777A71991D1CE483001D2F4A /* VCKVOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCKVOTest.h; sourceTree = "<group>"; };
 		777A719A1D1CE483001D2F4A /* VCKVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVOTest.m; sourceTree = "<group>"; };
 		777A719C1D1CE560001D2F4A /* KVOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOView.h; sourceTree = "<group>"; };
@@ -346,12 +354,16 @@
 		77EFCE881D1ABC8400153981 /* QYStripView */ = {
 			isa = PBXGroup;
 			children = (
+				7721E3331D21120D007537D6 /* collection.png */,
+				7721E3341D21120D007537D6 /* favorite.png */,
+				7721E3351D21120D007537D6 /* push.png */,
+				7721E3361D21120D007537D6 /* share.png */,
 				772FC3F51D1B9FD10054ED4A /* QYStripButton.h */,
 				772FC3F61D1B9FD10054ED4A /* QYStripButton.m */,
 				77EFCE8D1D1AC17E00153981 /* QYStripViewContainer.h */,
 				77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */,
 				77EFCE8C1D1ABCCE00153981 /* QYStripProtocol.h */,
-				777A71911D1CC8FC001D2F4A /* UIView+chain.h */,
+				777A71911D1CC8FC001D2F4A /* QYStripView+chain.h */,
 			);
 			path = QYStripView;
 			sourceTree = "<group>";
@@ -451,12 +463,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */,
+				7721E3381D21120D007537D6 /* favorite.png in Resources */,
 				77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */,
+				7721E3391D21120D007537D6 /* push.png in Resources */,
 				77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */,
 				0AE8E1061B99A99100CCC714 /* AutoLayoutTestViewController.xib in Resources */,
 				77828A0F1D06D1A800D39FAE /* Info.plist in Resources */,
+				7721E33A1D21120D007537D6 /* share.png in Resources */,
 				0AF4CCFA1B92B9C500A5E95F /* Main.storyboard in Resources */,
 				0AF4CCFF1B92B9C500A5E95F /* LaunchScreen.xib in Resources */,
+				7721E3371D21120D007537D6 /* collection.png in Resources */,
 				0AF4CCFC1B92B9C500A5E95F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
