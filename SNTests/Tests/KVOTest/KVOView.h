@@ -17,6 +17,8 @@
 }
 @property(nonatomic,assign)BOOL viewHidden;
 
+@property(nonatomic,weak)NSString* test;
+
 -(void)setViewFrame:(CGRect)frame;
 -(void)setViewHidden:(BOOL)hidden;
 

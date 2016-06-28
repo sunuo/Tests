@@ -22,6 +22,13 @@ static const NSString* KVOCntext;
     [_kview setBackgroundColor:[UIColor orangeColor]];
     [self.view addSubview:_kview];
     
+    
+    {
+        NSString* ttt=@"sss";
+        _kview.test=ttt;
+        
+    }
+    
     self.navigationItem.rightBarButtonItems=@[
                                              [[UIBarButtonItem alloc] initWithTitle:@"hidden" style:UIBarButtonItemStylePlain target:self action:@selector(hideView)],
                                              
@@ -31,6 +38,8 @@ static const NSString* KVOCntext;
     [_kview addObserver:self forKeyPath:KVOHidden options:NSKeyValueObservingOptionOld|NSKeyValueObservingOptionNew context:&KVOCntext];
     
     [_kview setValue:[NSValue valueWithCGRect:CGRectMake(0, 80, 300, 300)] forKey:KVOFrame];
+    
+    NSLog(@":::%@",_kview.test);
     
 }
 

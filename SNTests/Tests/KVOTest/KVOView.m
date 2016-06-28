@@ -26,6 +26,12 @@
     return viewFr;
 }
 
+//-(void)setTest:(NSString *)test
+//{
+//    _test=test;
+//}
+
+
 -(void)setViewHidden:(BOOL)hidden
 {
     [self willChangeValueForKey:KVOHidden];

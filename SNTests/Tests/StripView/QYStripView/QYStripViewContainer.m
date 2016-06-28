@@ -147,9 +147,12 @@
 
 -(UIView<QYStripProtocol>*)firstView
 {
-    for (UIView<QYStripProtocol>*  vw in _viewArray) {
-        if (!vw.s_hidden) {
-            return vw;
+    if (_viewArray.count<=0) {
+        return nil;
+    }
+    for (NSInteger i=0; i<=[_viewArray count]-1; i++) {
+        if (!((UIView<QYStripProtocol>*)_viewArray[i]).s_hidden) {
+            return _viewArray[i];
         }
     }
     return nil;
@@ -157,6 +160,9 @@
 
 -(UIView<QYStripProtocol>*)lastView
 {
+    if (_viewArray.count<=0) {
+        return nil;
+    }
     for (NSInteger i=[_viewArray count]-1; i>=0; i--) {
         if (!((UIView<QYStripProtocol>*)_viewArray[i]).s_hidden) {
             return _viewArray[i];
@@ -187,7 +193,7 @@
         }break;
         case StripDirectionHorizonFromRight:{//右到左扩展，第一个处于最边
             if (emptyOrAllHide) {
-                oldSuperFrame.origin.x= CGRectGetMaxX(oldSuperFrame)
+                oldSuperFrame.origin.x= CGRectGetMaxX(oldSuperFrame);
                 oldSuperFrame.size.width=0;
             }
             else
@@ -210,8 +216,9 @@
                 
             }
             else{
-                oldSuperFrame.size.height=CGRectGetMaxY(firstView.frame)+self.s_insets.bottom+firstView.s_outsets.bottom;
-                oldSuperFrame.origin.y=CGRectGetMaxY(oldSuperFrame)-oldSuperFrame.size.height;
+                CGFloat maxY=CGRectGetMaxY(oldSuperFrame);
+                oldSuperFrame.size.height= CGRectGetMaxY(firstView.frame)+self.s_insets.bottom+firstView.s_outsets.bottom;
+                oldSuperFrame.origin.y=maxY-oldSuperFrame.size.height;
             }
             
         }break;
@@ -230,6 +237,7 @@
     StripEdgeInsets curoutset = currentView.s_outsets;
     CGRect curFrame=currentView.frame;
     
+    CGRect selfFrame = self.frame;
     switch (self.s_direction) {
         case StripDirectionHorizonFromLeft:{//左到右扩展，第一个处于最边
             
@@ -280,6 +288,19 @@
                 preoutset.top=superInsets.bottom;
             }
 
+            if (CGRectGetMinY(preFrame)-preoutset.top-curoutset.bottom-curFrame.size.height<0) {
+                CGFloat maxY= CGRectGetMaxY(selfFrame);
+                
+                selfFrame.size.height=CGRectGetHeight(selfFrame)+fabs(CGRectGetMinY(preFrame)-preoutset.top-curoutset.bottom-curFrame.size.height);
+                selfFrame.origin.y=maxY-CGRectGetHeight(selfFrame);
+                
+                self.frame=selfFrame;
+                
+                if (preView==nil) {
+                     preFrame=CGRectMake(0, CGRectGetHeight(self.frame), 0, 0);
+                }
+            }
+            
             curFrame=CGRectMake((CGRectGetWidth(self.frame)-curFrame.size.width)/2,//curoutset.left,
                                 CGRectGetMinY(preFrame)-preoutset.top-curoutset.bottom-curFrame.size.height,
                                 curFrame.size.width,
