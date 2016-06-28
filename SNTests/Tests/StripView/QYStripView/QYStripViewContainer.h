@@ -5,12 +5,20 @@
 //  Created by xukaitiankevin on 16/6/22.
 //  Copyright © 2016年 徐诺. All rights reserved.
 //
+//1+++++++4
+//+       +
+//+       +
+//+       +
+//2+++++++3
 
 #import <UIKit/UIKit.h>
 #import "QYStripProtocol.h"
 #import "QYStripView+chain.h"
 @interface QYStripViewContainer : UIView<QYStripProtocol>
 {
+    @private
+    CGPoint _basePoint;//For bottom2top（2） or right2left（4）
+    
     @protected
     NSMutableArray* _viewArray;
 }

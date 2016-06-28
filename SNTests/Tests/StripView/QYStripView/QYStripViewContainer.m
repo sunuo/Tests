@@ -32,6 +32,9 @@
     if (self=[super initWithFrame:frame]) {
         
 //        self.s_direction=StripDirectionHorizonFromLeft;
+        
+        self.s_frame=frame;
+        
         _s_autoResize=YES;
         
 #if DEBUG
@@ -117,19 +120,19 @@
         if (!currentView.s_hidden) {
             
             //动画
-            [UIView animateWithDuration:0.1  animations:^{
-                
+//            [UIView animateWithDuration:0.1  animations:^{
+            
                 currentView.frame = [self reposViewFrame:currentView byPreview:preView];
                 
-            }];
+//            }];
             
             preView=currentView;//保证preview不为hidden
 
         }
         
     }
-    if(self.s_autoResize)
-        [self adjustToContentSize];
+//    if(self.s_autoResize)
+//        [self adjustToContentSize];
 }
 
 -(void)setS_autoResize:(BOOL)s_autoResize
@@ -171,61 +174,120 @@
     return nil;
 }
 
+-(CGFloat)getHorizonWidth
+{
+//    CGRect oldSuperFrame= self.frame;
+    CGFloat width=self.s_insets.left+self.s_insets.right;
+    for (int i=0; i<_viewArray.count; i++) {
+        UIView<QYStripProtocol>* view=_viewArray[i];
+        if (!view.s_hidden) {
+            width+=view.frame.size.width+view.s_outsets.left+view.s_outsets.right;
+        }
+    }
+    
+    return width;
+}
+
+-(CGFloat)getVerticalHeight
+{
+    CGFloat height=self.s_insets.top+self.s_insets.bottom;
+    for (int i=0; i<_viewArray.count; i++) {
+        UIView<QYStripProtocol>* view=_viewArray[i];
+        if (!view.s_hidden) {
+            height+=view.frame.size.height+view.s_outsets.bottom+view.s_outsets.top;
+        }
+    }
+    
+    return height;
+}
+
 -(void)adjustToContentSize
 {
-    BOOL emptyOrAllHide=NO;
-    UIView<QYStripProtocol>* lastView= [self lastView];
-    UIView<QYStripProtocol>* firstView= [self firstView];
+        CGRect oldSuperFrame= self.frame;
     
-    if (_viewArray.count<=0||lastView==nil||firstView==nil) {
-        emptyOrAllHide=YES;
-    }
-    CGRect oldSuperFrame= self.frame;
-    CGRect lastViewFrame= lastView.frame;
-    CGRect firstViewFrame= firstView.frame;
-    switch (self.s_direction) {
-        case StripDirectionHorizonFromLeft:{//左到右扩展，第一个处于最边
-            if (emptyOrAllHide) {
-                oldSuperFrame.size.width=0;
-            }
-            else
-                oldSuperFrame.size.width=CGRectGetMaxX(lastViewFrame)+lastView.s_outsets.right+self.s_insets.right;
-        }break;
-        case StripDirectionHorizonFromRight:{//右到左扩展，第一个处于最边
-            if (emptyOrAllHide) {
-                oldSuperFrame.origin.x= CGRectGetMaxX(oldSuperFrame);
-                oldSuperFrame.size.width=0;
-            }
-            else
+        switch (self.s_direction) {
+            case StripDirectionHorizonFromLeft:
+            {//左到右扩展，第一个处于最边
+                oldSuperFrame.size.width=[self getHorizonWidth];
+            }break;
+            case StripDirectionHorizonFromRight:
+            {//右到左扩展，第一个处于最边
+                CGFloat maxX=CGRectGetMaxX(oldSuperFrame);
+                oldSuperFrame.size.width=[self getHorizonWidth];
+                oldSuperFrame.origin.x=maxX-oldSuperFrame.size.width;
+            }break;
+            case StripDirectionVerticaFromlTop:
+            {//上到下扩展，第一个处于最边
+                oldSuperFrame.size.height=[self getVerticalHeight];
+            }break;
+            case StripDirectionVerticaFromlBottom:
             {
-                oldSuperFrame.size.width=CGRectGetMaxX(firstViewFrame)+self.s_insets.right+firstView.s_outsets.right;
-                oldSuperFrame.origin.x= CGRectGetMaxX(oldSuperFrame)-oldSuperFrame.size.width;
-            }
-        }break;
-        case StripDirectionVerticaFromlTop:{//上到下扩展，第一个处于最边
-            if (emptyOrAllHide) {
-                oldSuperFrame.size.height=0;
-            }
-            else
-                oldSuperFrame.size.height=CGRectGetMaxY(lastViewFrame)+self.s_insets.bottom+lastView.s_outsets.bottom;
-        }break;
-        case StripDirectionVerticaFromlBottom:{//下到上扩展，第一个处于最边
-            if (emptyOrAllHide) {
-                oldSuperFrame.origin.y=CGRectGetMaxY(oldSuperFrame);
-                oldSuperFrame.size.height=0;
-                
-            }
-            else{
+                //下到上扩展，第一个处于最边
                 CGFloat maxY=CGRectGetMaxY(oldSuperFrame);
-                oldSuperFrame.size.height= CGRectGetMaxY(firstView.frame)+self.s_insets.bottom+firstView.s_outsets.bottom;
+                oldSuperFrame.size.height=[self getVerticalHeight];
                 oldSuperFrame.origin.y=maxY-oldSuperFrame.size.height;
-            }
-            
-        }break;
-        default:break;
-    }
-    self.frame=oldSuperFrame;
+            }break;
+            default:break;
+        }
+        self.frame=oldSuperFrame;
+
 }
+
+//-(void)adjustToContentSize
+//{
+//    BOOL emptyOrAllHide=NO;
+//    UIView<QYStripProtocol>* lastView= [self lastView];
+//    UIView<QYStripProtocol>* firstView= [self firstView];
+//    
+//    if (_viewArray.count<=0||lastView==nil||firstView==nil) {
+//        emptyOrAllHide=YES;
+//    }
+//    CGRect oldSuperFrame= self.frame;
+//    CGRect lastViewFrame= lastView.frame;
+//    CGRect firstViewFrame= firstView.frame;
+//    switch (self.s_direction) {
+//        case StripDirectionHorizonFromLeft:{//左到右扩展，第一个处于最边
+//            if (emptyOrAllHide) {
+//                oldSuperFrame.size.width=0;
+//            }
+//            else
+//                oldSuperFrame.size.width=CGRectGetMaxX(lastViewFrame)+lastView.s_outsets.right+self.s_insets.right;
+//        }break;
+//        case StripDirectionHorizonFromRight:{//右到左扩展，第一个处于最边
+//            if (emptyOrAllHide) {
+//                oldSuperFrame.origin.x= CGRectGetMaxX(oldSuperFrame);
+//                oldSuperFrame.size.width=0;
+//            }
+//            else
+//            {
+//                oldSuperFrame.size.width=CGRectGetMaxX(firstViewFrame)+self.s_insets.right+firstView.s_outsets.right;
+//                oldSuperFrame.origin.x= CGRectGetMaxX(oldSuperFrame)-oldSuperFrame.size.width;
+//            }
+//        }break;
+//        case StripDirectionVerticaFromlTop:{//上到下扩展，第一个处于最边
+//            if (emptyOrAllHide) {
+//                oldSuperFrame.size.height=0;
+//            }
+//            else
+//                oldSuperFrame.size.height=CGRectGetMaxY(lastViewFrame)+self.s_insets.bottom+lastView.s_outsets.bottom;
+//        }break;
+//        case StripDirectionVerticaFromlBottom:{//下到上扩展，第一个处于最边
+//            if (emptyOrAllHide) {
+//                oldSuperFrame.origin.y=CGRectGetMaxY(oldSuperFrame);
+//                oldSuperFrame.size.height=0;
+//                
+//            }
+//            else{
+//                CGFloat maxY=CGRectGetMaxY(oldSuperFrame);
+//                oldSuperFrame.size.height= CGRectGetMaxY(firstView.frame)+self.s_insets.bottom+firstView.s_outsets.bottom;
+//                oldSuperFrame.origin.y=maxY-oldSuperFrame.size.height;
+//            }
+//            
+//        }break;
+//        default:break;
+//    }
+//    self.frame=oldSuperFrame;
+//}
 
 -(CGRect)reposViewFrame:(UIView<QYStripProtocol>*)currentView byPreview:(UIView<QYStripProtocol>*)preView
 {
@@ -237,7 +299,10 @@
     StripEdgeInsets curoutset = currentView.s_outsets;
     CGRect curFrame=currentView.frame;
     
-    CGRect selfFrame = self.frame;
+    if (self.s_autoResize) {
+        [self adjustToContentSize];
+    }
+    
     switch (self.s_direction) {
         case StripDirectionHorizonFromLeft:{//左到右扩展，第一个处于最边
             
@@ -288,20 +353,7 @@
                 preoutset.top=superInsets.bottom;
             }
 
-            if (CGRectGetMinY(preFrame)-preoutset.top-curoutset.bottom-curFrame.size.height<0) {
-                CGFloat maxY= CGRectGetMaxY(selfFrame);
-                
-                selfFrame.size.height=CGRectGetHeight(selfFrame)+fabs(CGRectGetMinY(preFrame)-preoutset.top-curoutset.bottom-curFrame.size.height);
-                selfFrame.origin.y=maxY-CGRectGetHeight(selfFrame);
-                
-                self.frame=selfFrame;
-                
-                if (preView==nil) {
-                     preFrame=CGRectMake(0, CGRectGetHeight(self.frame), 0, 0);
-                }
-            }
-            
-            curFrame=CGRectMake((CGRectGetWidth(self.frame)-curFrame.size.width)/2,//curoutset.left,
+            curFrame=CGRectMake((CGRectGetWidth(self.frame)-curFrame.size.width)/2,
                                 CGRectGetMinY(preFrame)-preoutset.top-curoutset.bottom-curFrame.size.height,
                                 curFrame.size.width,
                                 curFrame.size.height);
@@ -358,7 +410,10 @@
         }
     }
     [_viewArray removeAllObjects];
-    [self adjustToContentSize];
+    if(self.s_autoResize)
+    {
+        [self adjustToContentSize];
+    }
 }
 
 
@@ -447,6 +502,15 @@
     if (!CGRectEqualToRect(s_frame, _s_frame)) {
         [self willChangeValueForKey:KVO_S_FRAME];
         _s_frame=s_frame;
+        if (self.s_direction==StripDirectionHorizonFromRight) {
+            
+            _basePoint=CGPointMake(CGRectGetMaxX(s_frame),CGRectGetMinY(s_frame));
+            
+        }
+        else if (self.s_direction==StripDirectionVerticaFromlBottom) {
+            
+            _basePoint=CGPointMake(CGRectGetMinX(s_frame),CGRectGetMaxY(s_frame));
+        }
         self.frame=s_frame;
         [self didChangeValueForKey:KVO_S_FRAME];
     }
