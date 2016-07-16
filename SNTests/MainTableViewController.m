@@ -17,6 +17,12 @@
 #import "VCPIPTest.h"
 #import "VCStripViewTest.h"
 #import "VCKVOTest.h"
+#import "VCSubViewHierarchy.h"
+#import "VCHitest.h"
+#import "VCTouchTest.h"
+#import "VCTransparentTransmit.h"
+#import "VCHitestTransverse.h"
+
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
 #define ADD_CONTROLLER(key,class) [self.aryContent addObject:@{KEY_NAME:(key),KEY_CLASS:(class)}];
@@ -30,6 +36,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    ADD_CONTROLLER(@"视图递归",[VCHitestTransverse class]);
+    ADD_CONTROLLER(@"视图透传",[VCTransparentTransmit class]);
+    ADD_CONTROLLER(@"Touch Test", [VCTouchTest class]);
+    ADD_CONTROLLER(@"Hit Test", [VCHitest class]);
+    ADD_CONTROLLER(@"SUBVIEW层级", [VCSubViewHierarchy class]);
     ADD_CONTROLLER(@"KVO test",[VCKVOTest class]);
     ADD_CONTROLLER(@"StripVIew", [VCStripViewTest class]);
     ADD_CONTROLLER(@"OC和C方法相互调用",[VCCallEachOtherTest class]);
@@ -40,6 +51,8 @@
     ADD_CONTROLLER(@"本地化测试",[VCLocalizeTest class]);
     ADD_CONTROLLER(@"语言高度测试", [VCFontHeightest class]);
     ADD_CONTROLLER(@"画中画", [VCPIPTest class]);
+    
+
 }
 
 -(NSMutableArray*)aryContent

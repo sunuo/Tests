@@ -34,10 +34,18 @@
 		772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 772FC3F61D1B9FD10054ED4A /* QYStripButton.m */; };
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
+		776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */; };
+		777632E71D30DFD000E4945A /* VCHitest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E61D30DFD000E4945A /* VCHitest.m */; };
+		777632EA1D30E8FC00E4945A /* KVTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E91D30E8FC00E4945A /* KVTouchView.m */; };
+		777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632EC1D30EA4300E4945A /* VCTouchTest.m */; };
 		777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719A1D1CE483001D2F4A /* VCKVOTest.m */; };
 		777A719E1D1CE560001D2F4A /* KVOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719D1D1CE560001D2F4A /* KVOView.m */; };
 		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
 		77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77828A171D06D43A00D39FAE /* InfoPlist.strings */; };
+		77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */; };
+		77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A01D39EC49003117C7 /* VWTransparent.m */; };
+		77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A31D3A086F003117C7 /* VCHitestTransverse.m */; };
+		77C291A71D3A0907003117C7 /* VWTansverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A61D3A0907003117C7 /* VWTansverse.m */; };
 		77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ED44C71D13A89F00A4277B /* VCPIPTest.m */; };
 		77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77ED44C91D13AA5800A4277B /* samplemovie.mov */; };
 		77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE861D1ABC6700153981 /* VCStripViewTest.m */; };
@@ -104,6 +112,14 @@
 		772FC3F61D1B9FD10054ED4A /* QYStripButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = QYStripButton.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
+		776EC36F1D2F57BB00F9287F /* VCSubViewHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSubViewHierarchy.h; sourceTree = "<group>"; };
+		776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSubViewHierarchy.m; sourceTree = "<group>"; };
+		777632E51D30DFD000E4945A /* VCHitest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHitest.h; sourceTree = "<group>"; };
+		777632E61D30DFD000E4945A /* VCHitest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHitest.m; sourceTree = "<group>"; };
+		777632E81D30E8FC00E4945A /* KVTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTouchView.h; sourceTree = "<group>"; };
+		777632E91D30E8FC00E4945A /* KVTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTouchView.m; sourceTree = "<group>"; };
+		777632EB1D30EA4300E4945A /* VCTouchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchTest.h; sourceTree = "<group>"; };
+		777632EC1D30EA4300E4945A /* VCTouchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchTest.m; sourceTree = "<group>"; };
 		777A71911D1CC8FC001D2F4A /* QYStripView+chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QYStripView+chain.h"; sourceTree = "<group>"; };
 		777A71991D1CE483001D2F4A /* VCKVOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCKVOTest.h; sourceTree = "<group>"; };
 		777A719A1D1CE483001D2F4A /* VCKVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVOTest.m; sourceTree = "<group>"; };
@@ -113,6 +129,14 @@
 		77828A111D06D1DC00D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		77828A191D06D44700D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		77828A1A1D06D7B800D39FAE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77C2919C1D39EC2C003117C7 /* VCTransparentTransmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTransparentTransmit.h; sourceTree = "<group>"; };
+		77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTransparentTransmit.m; sourceTree = "<group>"; };
+		77C2919F1D39EC49003117C7 /* VWTransparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTransparent.h; sourceTree = "<group>"; };
+		77C291A01D39EC49003117C7 /* VWTransparent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWTransparent.m; sourceTree = "<group>"; };
+		77C291A21D3A086F003117C7 /* VCHitestTransverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHitestTransverse.h; sourceTree = "<group>"; };
+		77C291A31D3A086F003117C7 /* VCHitestTransverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHitestTransverse.m; sourceTree = "<group>"; };
+		77C291A51D3A0907003117C7 /* VWTansverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTansverse.h; sourceTree = "<group>"; };
+		77C291A61D3A0907003117C7 /* VWTansverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWTansverse.m; sourceTree = "<group>"; };
 		77ED44C61D13A89F00A4277B /* VCPIPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPIPTest.h; sourceTree = "<group>"; };
 		77ED44C71D13A89F00A4277B /* VCPIPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPIPTest.m; sourceTree = "<group>"; };
 		77ED44C91D13AA5800A4277B /* samplemovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = samplemovie.mov; sourceTree = "<group>"; };
@@ -245,6 +269,8 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				777632E41D30DFC300E4945A /* HitTesting */,
+				776EC36E1D2F578C00F9287F /* Subviewtest */,
 				777A71981D1CE46D001D2F4A /* KVOTest */,
 				77EFCE841D1ABC4100153981 /* StripView */,
 				770C410F1D17E7C300FFE677 /* TagTest */,
@@ -318,6 +344,36 @@
 				7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */,
 			);
 			path = LocalizeTest;
+			sourceTree = "<group>";
+		};
+		776EC36E1D2F578C00F9287F /* Subviewtest */ = {
+			isa = PBXGroup;
+			children = (
+				776EC36F1D2F57BB00F9287F /* VCSubViewHierarchy.h */,
+				776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */,
+			);
+			path = Subviewtest;
+			sourceTree = "<group>";
+		};
+		777632E41D30DFC300E4945A /* HitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				777632E51D30DFD000E4945A /* VCHitest.h */,
+				777632E61D30DFD000E4945A /* VCHitest.m */,
+				777632E81D30E8FC00E4945A /* KVTouchView.h */,
+				777632E91D30E8FC00E4945A /* KVTouchView.m */,
+				777632EB1D30EA4300E4945A /* VCTouchTest.h */,
+				777632EC1D30EA4300E4945A /* VCTouchTest.m */,
+				77C2919C1D39EC2C003117C7 /* VCTransparentTransmit.h */,
+				77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */,
+				77C2919F1D39EC49003117C7 /* VWTransparent.h */,
+				77C291A01D39EC49003117C7 /* VWTransparent.m */,
+				77C291A21D3A086F003117C7 /* VCHitestTransverse.h */,
+				77C291A31D3A086F003117C7 /* VCHitestTransverse.m */,
+				77C291A51D3A0907003117C7 /* VWTansverse.h */,
+				77C291A61D3A0907003117C7 /* VWTansverse.m */,
+			);
+			path = HitTesting;
 			sourceTree = "<group>";
 		};
 		777A71981D1CE46D001D2F4A /* KVOTest */ = {
@@ -495,24 +551,32 @@
 				0A1DEE901B986B650060A7D3 /* Animate_Autolayout_ViewController.m in Sources */,
 				77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */,
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
+				777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */,
 				777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */,
 				0AE8E1041B99A95D00CCC714 /* AutoLayoutTestViewController.m in Sources */,
+				77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */,
 				0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */,
+				777632EA1D30E8FC00E4945A /* KVTouchView.m in Sources */,
 				0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */,
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
 				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
 				770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */,
 				772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */,
 				0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */,
+				77C291A71D3A0907003117C7 /* VWTansverse.m in Sources */,
 				772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */,
 				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
+				77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */,
 				77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */,
 				772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */,
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
+				776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */,
+				77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */,
 				77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */,
 				77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */,
+				777632E71D30DFD000E4945A /* VCHitest.m in Sources */,
 				77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */,
 				777A719E1D1CE560001D2F4A /* KVOView.m in Sources */,
 			);

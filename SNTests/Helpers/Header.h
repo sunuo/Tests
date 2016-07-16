@@ -16,4 +16,9 @@
 #define float(ff) [NSNumber numberWithFloat:ff]
 #define integer(integ) [NSNumber numberWithInteger:integ]
 
+#define LOG_SELECTOR NSLog(@"LOG:::%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self)
+
+#define VIEW(type,x,y,width,height) [[type alloc] initWithFrame:CGRectMake(x,y ,width , height)]
+#define VIEW_RECT(type,rect) [[type alloc] initWithFrame:(rect)]
+
 #endif
