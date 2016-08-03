@@ -41,7 +41,7 @@
     
     ADD_CONTROLLER(@"Protocol",[VCProtocol class]);
     ADD_CONTROLLER(@"响应链测试",[VCResponderChainTest class]);
-    ADD_CONTROLLER(@"Hitest 与gesture 冲突",[VCHitVSGesture class]);
+    ADD_CONTROLLER(@"responder chain 与gesture",[VCHitVSGesture class]);
     ADD_CONTROLLER(@"视图递归",[VCHitestTransverse class]);
     ADD_CONTROLLER(@"视图透传",[VCTransparentTransmit class]);
     ADD_CONTROLLER(@"Touch Test", [VCTouchTest class]);

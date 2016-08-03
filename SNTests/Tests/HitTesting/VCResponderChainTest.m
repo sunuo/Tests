@@ -14,13 +14,13 @@
 -(void)viewDidLoad
 {
     [super viewDidLoad];
-//实验一
+//实验一 -----------------------------
     UIView* sub = [[UIView alloc] initWithFrame:self.view.bounds];
 //    结果：由于本身没有处理，所以forward到父view 处理
 //    2016-08-03 17:32:42.230 SNTests[26188:333171] LOG:::KVTouchView___touchesBegan:withEvent:___<KVTouchView: 0x7ff9e3d67b10; frame = (0 0; 320 568); layer = <CALayer: 0x7ff9e3d68af0>>
 //    2016-08-03 17:32:42.326 SNTests[26188:333171] LOG:::KVTouchView___touchesEnded:withEvent:___<KVTouchView: 0x7ff9e3d67b10; frame = (0 0; 320 568); layer = <CALayer: 0x7ff9e3d68af0>>
     
-//实验二
+//实验二 -----------------------------
 //    KVTouchView* sub = [[KVTouchView alloc] initWithFrame:self.view.bounds];
 //    sub.name = @"sub";
 //    结果：由于本身有处理，父view没有机会处理
@@ -33,11 +33,11 @@
 //    2016-08-03 17:29:49.549 SNTests[26056:330259] ---sub
 //    2016-08-03 17:29:49.549 SNTests[26056:330259] LOG:::KVTouchView___touchesEnded:withEvent:___<KVTouchView: 0x7fd719647840; frame = (0 0; 320 568); layer = <CALayer: 0x7fd719644900>>
     
-//实验三
+//实验三 -----------------------------
 //    UIControl* sub = [[UIControl alloc] initWithFrame:self.view.bounds];
 //    结果：点击无响应 说明UIControl没有forward到父view
     
-//实验四
+//实验四 -----------------------------
 //    UILabel* sub = [[UILabel alloc] initWithFrame:self.view.bounds];
 //    sub.userInteractionEnabled=YES;
 //    [sub setTextAlignment:NSTextAlignmentCenter];[sub setText:@"CLICK ME"];[sub setFont:[UIFont systemFontOfSize:20.0f]];
@@ -45,7 +45,7 @@
 //    2016-08-03 17:38:16.154 SNTests[26480:339727] LOG:::KVTouchView___touchesBegan:withEvent:___<KVTouchView: 0x7fdbb0f926c0; frame = (0 0; 320 568); layer = <CALayer: 0x7fdbb0f2ef70>>
 //    2016-08-03 17:38:16.231 SNTests[26480:339727] LOG:::KVTouchView___touchesEnded:withEvent:___<KVTouchView: 0x7fdbb0f926c0; frame = (0 0; 320 568); layer = <CALayer: 0x7fdbb0f2ef70>>
 
-//实验五
+//实验五 -----------------------------
 //    UIImageView* sub = [[UIImageView alloc] initWithFrame:self.view.bounds];
 //    sub.userInteractionEnabled=YES;[sub setImage:[UIImage imageNamed:@"memda.jpg"]];
 //    结果:同实验一
