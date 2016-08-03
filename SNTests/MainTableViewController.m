@@ -22,6 +22,9 @@
 #import "VCTouchTest.h"
 #import "VCTransparentTransmit.h"
 #import "VCHitestTransverse.h"
+#import "VCProtocol.h"
+#import "VCHitVSGesture.h"
+#import "VCResponderChainTest.h"
 
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
@@ -36,6 +39,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    ADD_CONTROLLER(@"Protocol",[VCProtocol class]);
+    ADD_CONTROLLER(@"响应链测试",[VCResponderChainTest class]);
+    ADD_CONTROLLER(@"Hitest 与gesture 冲突",[VCHitVSGesture class]);
     ADD_CONTROLLER(@"视图递归",[VCHitestTransverse class]);
     ADD_CONTROLLER(@"视图透传",[VCTransparentTransmit class]);
     ADD_CONTROLLER(@"Touch Test", [VCTouchTest class]);
