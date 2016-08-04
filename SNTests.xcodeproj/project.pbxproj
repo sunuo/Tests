@@ -24,6 +24,7 @@
 		0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1A1B92BA7500A5E95F /* VCCallEachOtherTest.m */; };
 		0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1F1B92BAF500A5E95F /* VCBased.m */; };
 		0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */; };
+		0AF7924F1D4F9F8C00589D71 /* VCTouchAndGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7924E1D4F9F8C00589D71 /* VCTouchAndGesture.m */; };
 		770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 770C41111D17E7D200FFE677 /* VCTagTest.m */; };
 		771AEFB61D519D2C00D4C3C7 /* VCHitVSGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 771AEFB51D519D2C00D4C3C7 /* VCHitVSGesture.m */; };
 		771AEFB91D51A34600D4C3C7 /* VCResponderChainTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 771AEFB81D51A34600D4C3C7 /* VCResponderChainTest.m */; };
@@ -103,6 +104,8 @@
 		0AF4CD221B92BBAD00A5E95F /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
 		0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
 		0AF4CD251B92BEAB00A5E95F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		0AF7924D1D4F9F8C00589D71 /* VCTouchAndGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchAndGesture.h; sourceTree = "<group>"; };
+		0AF7924E1D4F9F8C00589D71 /* VCTouchAndGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchAndGesture.m; sourceTree = "<group>"; };
 		770C41101D17E7D200FFE677 /* VCTagTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTagTest.h; sourceTree = "<group>"; };
 		770C41111D17E7D200FFE677 /* VCTagTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTagTest.m; sourceTree = "<group>"; };
 		771AEFB41D519D2C00D4C3C7 /* VCHitVSGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHitVSGesture.h; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 				771AEFB51D519D2C00D4C3C7 /* VCHitVSGesture.m */,
 				771AEFB71D51A34600D4C3C7 /* VCResponderChainTest.h */,
 				771AEFB81D51A34600D4C3C7 /* VCResponderChainTest.m */,
+				0AF7924D1D4F9F8C00589D71 /* VCTouchAndGesture.h */,
+				0AF7924E1D4F9F8C00589D71 /* VCTouchAndGesture.m */,
 			);
 			path = HitTesting;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */,
 				771AEFB91D51A34600D4C3C7 /* VCResponderChainTest.m in Sources */,
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
+				0AF7924F1D4F9F8C00589D71 /* VCTouchAndGesture.m in Sources */,
 				777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */,
 				777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */,
 				0AE8E1041B99A95D00CCC714 /* AutoLayoutTestViewController.m in Sources */,

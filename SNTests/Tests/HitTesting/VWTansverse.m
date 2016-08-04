@@ -20,7 +20,7 @@
 
 -(UIView*)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
-    return nil;
+//    return nil;
     NSLog(@"name:::%@___%@",self.name,NSStringFromSelector(_cmd));
     return [super hitTest:point withEvent:event];
 }
@@ -31,5 +31,24 @@
     return [super pointInside:point withEvent:event];
 }
 
+-(void)setName:(NSString *)name
+{
+    _name=name;
+    
+    [self setNeedsDisplay];
+}
+
+-(void)drawRect:(CGRect)rect
+{
+    [super drawRect:rect];
+    
+    if (_name) {
+        [_name drawInRect:self.bounds withAttributes:@{
+                                                       NSForegroundColorAttributeName:[UIColor blackColor],
+                                                       NSFontAttributeName:[UIFont systemFontOfSize:20.0f],
+                                                       
+                                                       }];
+    }
+}
 
 @end

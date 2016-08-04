@@ -25,6 +25,7 @@
 #import "VCProtocol.h"
 #import "VCHitVSGesture.h"
 #import "VCResponderChainTest.h"
+#import "VCTouchAndGesture.h"
 
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
@@ -42,6 +43,7 @@
     ADD_CONTROLLER(@"Protocol",[VCProtocol class]);
     ADD_CONTROLLER(@"响应链测试",[VCResponderChainTest class]);
     ADD_CONTROLLER(@"responder chain 与gesture",[VCHitVSGesture class]);
+    ADD_CONTROLLER(@"点击和手势",[VCTouchAndGesture class]);
     ADD_CONTROLLER(@"视图递归",[VCHitestTransverse class]);
     ADD_CONTROLLER(@"视图透传",[VCTransparentTransmit class]);
     ADD_CONTROLLER(@"Touch Test", [VCTouchTest class]);
