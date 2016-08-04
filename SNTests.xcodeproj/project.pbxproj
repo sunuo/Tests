@@ -45,6 +45,8 @@
 		777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632EC1D30EA4300E4945A /* VCTouchTest.m */; };
 		777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719A1D1CE483001D2F4A /* VCKVOTest.m */; };
 		777A719E1D1CE560001D2F4A /* KVOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719D1D1CE560001D2F4A /* KVOView.m */; };
+		777C1A791D534EC900A94083 /* VCShelterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A781D534EC900A94083 /* VCShelterTest.m */; };
+		777C1A7C1D534F0B00A94083 /* KVSpayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A7B1D534F0B00A94083 /* KVSpayButton.m */; };
 		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
 		77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77828A171D06D43A00D39FAE /* InfoPlist.strings */; };
 		77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */; };
@@ -142,6 +144,10 @@
 		777A719A1D1CE483001D2F4A /* VCKVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVOTest.m; sourceTree = "<group>"; };
 		777A719C1D1CE560001D2F4A /* KVOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOView.h; sourceTree = "<group>"; };
 		777A719D1D1CE560001D2F4A /* KVOView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOView.m; sourceTree = "<group>"; };
+		777C1A771D534EC900A94083 /* VCShelterTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCShelterTest.h; sourceTree = "<group>"; };
+		777C1A781D534EC900A94083 /* VCShelterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCShelterTest.m; sourceTree = "<group>"; };
+		777C1A7A1D534F0B00A94083 /* KVSpayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVSpayButton.h; sourceTree = "<group>"; };
+		777C1A7B1D534F0B00A94083 /* KVSpayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVSpayButton.m; sourceTree = "<group>"; };
 		77828A0E1D06D1A800D39FAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77828A111D06D1DC00D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		77828A191D06D44700D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -410,6 +416,10 @@
 				771AEFB81D51A34600D4C3C7 /* VCResponderChainTest.m */,
 				0AF7924D1D4F9F8C00589D71 /* VCTouchAndGesture.h */,
 				0AF7924E1D4F9F8C00589D71 /* VCTouchAndGesture.m */,
+				777C1A771D534EC900A94083 /* VCShelterTest.h */,
+				777C1A781D534EC900A94083 /* VCShelterTest.m */,
+				777C1A7A1D534F0B00A94083 /* KVSpayButton.h */,
+				777C1A7B1D534F0B00A94083 /* KVSpayButton.m */,
 			);
 			path = HitTesting;
 			sourceTree = "<group>";
@@ -614,6 +624,8 @@
 				771FD1301D3F2E7A004AA3A0 /* VCProtocol.m in Sources */,
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
+				777C1A7C1D534F0B00A94083 /* KVSpayButton.m in Sources */,
+				777C1A791D534EC900A94083 /* VCShelterTest.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
 				776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */,
 				77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */,
