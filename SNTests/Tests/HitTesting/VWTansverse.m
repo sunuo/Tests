@@ -20,35 +20,18 @@
 
 -(UIView*)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
-//    return nil;
     NSLog(@"name:::%@___%@",self.name,NSStringFromSelector(_cmd));
-    return [super hitTest:point withEvent:event];
+    UIView* view = [super hitTest:point withEvent:event];
+    if (view!=nil) {
+        NSLog(@"result view ;;; %@-------------------",((VWTansverse*)view).name);
+    }
+    return view;
 }
 
 -(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
 {
     NSLog(@"name:::%@___%@",self.name,NSStringFromSelector(_cmd));
     return [super pointInside:point withEvent:event];
-}
-
--(void)setName:(NSString *)name
-{
-    _name=name;
-    
-    [self setNeedsDisplay];
-}
-
--(void)drawRect:(CGRect)rect
-{
-    [super drawRect:rect];
-    
-    if (_name) {
-        [_name drawInRect:self.bounds withAttributes:@{
-                                                       NSForegroundColorAttributeName:[UIColor blackColor],
-                                                       NSFontAttributeName:[UIFont systemFontOfSize:20.0f],
-                                                       
-                                                       }];
-    }
 }
 
 @end
