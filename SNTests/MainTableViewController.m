@@ -27,6 +27,7 @@
 #import "VCResponderChainTest.h"
 #import "VCTouchAndGesture.h"
 #import "VCShelterTest.h"
+#import "VCUndoRedo.h"
 
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
@@ -41,6 +42,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    ADD_CONTROLLER(@"UnRedo",[VCUndoRedo class]);
     ADD_CONTROLLER(@"Protocol",[VCProtocol class]);
     ADD_CONTROLLER(@"控件遮挡测试",[VCShelterTest class]);
     ADD_CONTROLLER(@"响应链测试",[VCResponderChainTest class]);

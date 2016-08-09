@@ -54,6 +54,8 @@
 		77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A31D3A086F003117C7 /* VCHitestTransverse.m */; };
 		77C291A71D3A0907003117C7 /* VWTansverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A61D3A0907003117C7 /* VWTansverse.m */; };
 		77D438FE1D51F3E7009FDBE9 /* memda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77D438FD1D51F3E7009FDBE9 /* memda.jpg */; };
+		77DA0FDF1D58A9F4003212C9 /* VCDecouple.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DA0FDE1D58A9F4003212C9 /* VCDecouple.m */; };
+		77DE1C131D59EC4700A09C0E /* VCUndoRedo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1C121D59EC4700A09C0E /* VCUndoRedo.m */; };
 		77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ED44C71D13A89F00A4277B /* VCPIPTest.m */; };
 		77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77ED44C91D13AA5800A4277B /* samplemovie.mov */; };
 		77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE861D1ABC6700153981 /* VCStripViewTest.m */; };
@@ -161,6 +163,10 @@
 		77C291A51D3A0907003117C7 /* VWTansverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTansverse.h; sourceTree = "<group>"; };
 		77C291A61D3A0907003117C7 /* VWTansverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWTansverse.m; sourceTree = "<group>"; };
 		77D438FD1D51F3E7009FDBE9 /* memda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = memda.jpg; sourceTree = "<group>"; };
+		77DA0FDD1D58A9F4003212C9 /* VCDecouple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCDecouple.h; sourceTree = "<group>"; };
+		77DA0FDE1D58A9F4003212C9 /* VCDecouple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCDecouple.m; sourceTree = "<group>"; };
+		77DE1C111D59EC4700A09C0E /* VCUndoRedo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCUndoRedo.h; sourceTree = "<group>"; };
+		77DE1C121D59EC4700A09C0E /* VCUndoRedo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCUndoRedo.m; sourceTree = "<group>"; };
 		77ED44C61D13A89F00A4277B /* VCPIPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPIPTest.h; sourceTree = "<group>"; };
 		77ED44C71D13A89F00A4277B /* VCPIPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPIPTest.m; sourceTree = "<group>"; };
 		77ED44C91D13AA5800A4277B /* samplemovie.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = samplemovie.mov; sourceTree = "<group>"; };
@@ -293,6 +299,8 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				77DE1C101D59EC3700A09C0E /* UndoRedo */,
+				77DA0FDC1D58A9E0003212C9 /* BlockAndDelegate */,
 				771FD12C1D3F2D85004AA3A0 /* VCProtocol */,
 				777632E41D30DFC300E4945A /* HitTesting */,
 				776EC36E1D2F578C00F9287F /* Subviewtest */,
@@ -433,6 +441,24 @@
 				777A719D1D1CE560001D2F4A /* KVOView.m */,
 			);
 			path = KVOTest;
+			sourceTree = "<group>";
+		};
+		77DA0FDC1D58A9E0003212C9 /* BlockAndDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				77DA0FDD1D58A9F4003212C9 /* VCDecouple.h */,
+				77DA0FDE1D58A9F4003212C9 /* VCDecouple.m */,
+			);
+			path = BlockAndDelegate;
+			sourceTree = "<group>";
+		};
+		77DE1C101D59EC3700A09C0E /* UndoRedo */ = {
+			isa = PBXGroup;
+			children = (
+				77DE1C111D59EC4700A09C0E /* VCUndoRedo.h */,
+				77DE1C121D59EC4700A09C0E /* VCUndoRedo.m */,
+			);
+			path = UndoRedo;
 			sourceTree = "<group>";
 		};
 		77ED44C51D13A88F00A4277B /* PIPTest */ = {
@@ -616,11 +642,13 @@
 				772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */,
 				0AF4CD1D1B92BA7500A5E95F /* VCCallEachOtherTest.m in Sources */,
 				77C291A71D3A0907003117C7 /* VWTansverse.m in Sources */,
+				77DE1C131D59EC4700A09C0E /* VCUndoRedo.m in Sources */,
 				772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */,
 				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
 				77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */,
 				77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */,
 				772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */,
+				77DA0FDF1D58A9F4003212C9 /* VCDecouple.m in Sources */,
 				771FD1301D3F2E7A004AA3A0 /* VCProtocol.m in Sources */,
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
