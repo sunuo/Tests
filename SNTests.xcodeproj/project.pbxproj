@@ -34,6 +34,7 @@
 		7721E3381D21120D007537D6 /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3341D21120D007537D6 /* favorite.png */; };
 		7721E3391D21120D007537D6 /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3351D21120D007537D6 /* push.png */; };
 		7721E33A1D21120D007537D6 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3361D21120D007537D6 /* share.png */; };
+		772804641D616E6A001CD351 /* KVTouchExpandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 772804631D616E6A001CD351 /* KVTouchExpandView.m */; };
 		772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
 		772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
 		772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 772FC3F61D1B9FD10054ED4A /* QYStripButton.m */; };
@@ -125,6 +126,8 @@
 		7721E3341D21120D007537D6 /* favorite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite.png; sourceTree = "<group>"; };
 		7721E3351D21120D007537D6 /* push.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = push.png; sourceTree = "<group>"; };
 		7721E3361D21120D007537D6 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		772804621D616E6A001CD351 /* KVTouchExpandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTouchExpandView.h; sourceTree = "<group>"; };
+		772804631D616E6A001CD351 /* KVTouchExpandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTouchExpandView.m; sourceTree = "<group>"; };
 		772BBF1E1D0FA2B6003B0191 /* VCFontHeightest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFontHeightest.h; sourceTree = "<group>"; };
 		772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFontHeightest.m; sourceTree = "<group>"; };
 		772F00D31CF6AA75009F103A /* VCImageViewModeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageViewModeTest.h; sourceTree = "<group>"; };
@@ -428,6 +431,8 @@
 				777C1A781D534EC900A94083 /* VCShelterTest.m */,
 				777C1A7A1D534F0B00A94083 /* KVSpayButton.h */,
 				777C1A7B1D534F0B00A94083 /* KVSpayButton.m */,
+				772804621D616E6A001CD351 /* KVTouchExpandView.h */,
+				772804631D616E6A001CD351 /* KVTouchExpandView.m */,
 			);
 			path = HitTesting;
 			sourceTree = "<group>";
@@ -637,6 +642,7 @@
 				0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */,
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
 				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
+				772804641D616E6A001CD351 /* KVTouchExpandView.m in Sources */,
 				771AEFB61D519D2C00D4C3C7 /* VCHitVSGesture.m in Sources */,
 				770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */,
 				772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */,

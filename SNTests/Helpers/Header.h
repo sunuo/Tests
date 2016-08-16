@@ -21,4 +21,22 @@
 #define VIEW(type,x,y,width,height) [[type alloc] initWithFrame:CGRectMake(x,y ,width , height)]
 #define VIEW_RECT(type,rect) [[type alloc] initWithFrame:(rect)]
 
+
+//对象getter方法
+#define QYGetter(type,name) -(type*)name{\
+if(!_##name){\
+_##name=[[type alloc] init];\
+}\
+return _##name;\
+}
+
+//对象getter方法
+#define QYGetterWithBlock(type,name,block) -(type*)name{\
+if(!_##name){\
+_##name=[[type alloc] init];\
+block();\
+}\
+return _##name;\
+}
+
 #endif

@@ -20,19 +20,21 @@
 -(UIView*)hitTest:(CGPoint)point withEvent:(UIEvent *)event
 {
     UIView* view=[super hitTest:point withEvent:event];
-    NSLog(@"handle view:::%@",view);
+    if (view==self) {
+        view = nil;
+    }
     return view;
 }
 
--(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
-{
-
-    for (UIView* subview in [self subviews]) {
-        if (CGRectContainsPoint(subview.frame, point)) {
-            return YES;
-        }
-    }
-    return NO;
-}
+//-(BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event
+//{
+//
+//    for (UIView* subview in [self subviews]) {
+//        if (CGRectContainsPoint(subview.frame, point)) {
+//            return YES;
+//        }
+//    }
+//    return NO;
+//}
 
 @end
