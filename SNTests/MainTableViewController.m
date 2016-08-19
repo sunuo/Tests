@@ -28,6 +28,7 @@
 #import "VCTouchAndGesture.h"
 #import "VCShelterTest.h"
 #import "VCUndoRedo.h"
+#import "VCOnePixelTest.h"
 
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
@@ -42,6 +43,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    ADD_CONTROLLER(@"one pixel",[VCOnePixelTest class]);
     ADD_CONTROLLER(@"UnRedo",[VCUndoRedo class]);
     ADD_CONTROLLER(@"Protocol",[VCProtocol class]);
     ADD_CONTROLLER(@"控件遮挡测试",[VCShelterTest class]);

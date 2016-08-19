@@ -38,6 +38,8 @@
 		772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
 		772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
 		772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 772FC3F61D1B9FD10054ED4A /* QYStripButton.m */; };
+		7747CBFA1D66B9EA0056C8FB /* VCOnePixelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */; };
+		7747CBFD1D66EDAA0056C8FB /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747CBFC1D66EDAA0056C8FB /* DrawView.m */; };
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
 		776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */; };
@@ -134,6 +136,10 @@
 		772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageViewModeTest.m; sourceTree = "<group>"; };
 		772FC3F51D1B9FD10054ED4A /* QYStripButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYStripButton.h; sourceTree = "<group>"; };
 		772FC3F61D1B9FD10054ED4A /* QYStripButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = QYStripButton.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		7747CBF81D66B9EA0056C8FB /* VCOnePixelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCOnePixelTest.h; sourceTree = "<group>"; };
+		7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCOnePixelTest.m; sourceTree = "<group>"; };
+		7747CBFB1D66EDAA0056C8FB /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		7747CBFC1D66EDAA0056C8FB /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
 		776EC36F1D2F57BB00F9287F /* VCSubViewHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSubViewHierarchy.h; sourceTree = "<group>"; };
@@ -302,6 +308,7 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				7747CBF71D66B9D60056C8FB /* OnePixe */,
 				77DE1C101D59EC3700A09C0E /* UndoRedo */,
 				77DA0FDC1D58A9E0003212C9 /* BlockAndDelegate */,
 				771FD12C1D3F2D85004AA3A0 /* VCProtocol */,
@@ -383,6 +390,17 @@
 				772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */,
 			);
 			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		7747CBF71D66B9D60056C8FB /* OnePixe */ = {
+			isa = PBXGroup;
+			children = (
+				7747CBF81D66B9EA0056C8FB /* VCOnePixelTest.h */,
+				7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */,
+				7747CBFB1D66EDAA0056C8FB /* DrawView.h */,
+				7747CBFC1D66EDAA0056C8FB /* DrawView.m */,
+			);
+			path = OnePixe;
 			sourceTree = "<group>";
 		};
 		7749F5461D06C9C200D9A1F0 /* LocalizeTest */ = {
@@ -632,6 +650,7 @@
 				77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */,
 				771AEFB91D51A34600D4C3C7 /* VCResponderChainTest.m in Sources */,
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
+				7747CBFA1D66B9EA0056C8FB /* VCOnePixelTest.m in Sources */,
 				0AF7924F1D4F9F8C00589D71 /* VCTouchAndGesture.m in Sources */,
 				777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */,
 				777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */,
@@ -652,6 +671,7 @@
 				772F00D51CF6AA75009F103A /* VCImageViewModeTest.m in Sources */,
 				0A1DEE981B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m in Sources */,
 				77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */,
+				7747CBFD1D66EDAA0056C8FB /* DrawView.m in Sources */,
 				77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */,
 				772FC3F71D1B9FD10054ED4A /* QYStripButton.m in Sources */,
 				77DA0FDF1D58A9F4003212C9 /* VCDecouple.m in Sources */,
@@ -744,7 +764,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: kevin xu (LSYW5W3UU7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kevin xu (LSYW5W3UU7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -766,6 +787,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "19f2dc5e-5f99-45e7-8fce-ac09f09bb906";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -787,7 +809,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: kevin xu (LSYW5W3UU7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: kevin xu (LSYW5W3UU7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -802,6 +825,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "19f2dc5e-5f99-45e7-8fce-ac09f09bb906";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -811,10 +835,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: kevin xu (LSYW5W3UU7)";
 				INFOPLIST_FILE = SNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "19f2dc5e-5f99-45e7-8fce-ac09f09bb906";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -827,6 +853,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "19f2dc5e-5f99-45e7-8fce-ac09f09bb906";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

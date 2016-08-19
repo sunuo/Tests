@@ -50,6 +50,8 @@
     [self.view addSubview:_label];
     [self.view addSubview:addButton];
     
+
+    
 }
 
 
@@ -65,6 +67,9 @@
 {
     LOG_SELECTOR;
     [self.undoManager redo];
+    
+    NSInteger ii=111;
+    NSLog(@"%ld",(long)ii);
 }
 
 -(void)addButtonClick:(id)sender
