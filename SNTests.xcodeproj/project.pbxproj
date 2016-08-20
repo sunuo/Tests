@@ -43,6 +43,9 @@
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
 		776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */; };
+		77751C111D6815AF0088291E /* VWBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C101D6815AF0088291E /* VWBorder.m */; };
+		77751C141D6815CC0088291E /* VCOnePixelBoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C131D6815CC0088291E /* VCOnePixelBoder.m */; };
+		77751C1B1D682B0C0088291E /* UIView+OnePixelBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C1A1D682B0C0088291E /* UIView+OnePixelBorder.m */; };
 		777632E71D30DFD000E4945A /* VCHitest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E61D30DFD000E4945A /* VCHitest.m */; };
 		777632EA1D30E8FC00E4945A /* KVTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E91D30E8FC00E4945A /* KVTouchView.m */; };
 		777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632EC1D30EA4300E4945A /* VCTouchTest.m */; };
@@ -144,6 +147,12 @@
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
 		776EC36F1D2F57BB00F9287F /* VCSubViewHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSubViewHierarchy.h; sourceTree = "<group>"; };
 		776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSubViewHierarchy.m; sourceTree = "<group>"; };
+		77751C0F1D6815AF0088291E /* VWBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWBorder.h; sourceTree = "<group>"; };
+		77751C101D6815AF0088291E /* VWBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWBorder.m; sourceTree = "<group>"; };
+		77751C121D6815CC0088291E /* VCOnePixelBoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCOnePixelBoder.h; sourceTree = "<group>"; };
+		77751C131D6815CC0088291E /* VCOnePixelBoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCOnePixelBoder.m; sourceTree = "<group>"; };
+		77751C191D682B0C0088291E /* UIView+OnePixelBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+OnePixelBorder.h"; sourceTree = "<group>"; };
+		77751C1A1D682B0C0088291E /* UIView+OnePixelBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+OnePixelBorder.m"; sourceTree = "<group>"; };
 		777632E51D30DFD000E4945A /* VCHitest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHitest.h; sourceTree = "<group>"; };
 		777632E61D30DFD000E4945A /* VCHitest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHitest.m; sourceTree = "<group>"; };
 		777632E81D30E8FC00E4945A /* KVTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVTouchView.h; sourceTree = "<group>"; };
@@ -399,6 +408,12 @@
 				7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */,
 				7747CBFB1D66EDAA0056C8FB /* DrawView.h */,
 				7747CBFC1D66EDAA0056C8FB /* DrawView.m */,
+				77751C0F1D6815AF0088291E /* VWBorder.h */,
+				77751C101D6815AF0088291E /* VWBorder.m */,
+				77751C121D6815CC0088291E /* VCOnePixelBoder.h */,
+				77751C131D6815CC0088291E /* VCOnePixelBoder.m */,
+				77751C191D682B0C0088291E /* UIView+OnePixelBorder.h */,
+				77751C1A1D682B0C0088291E /* UIView+OnePixelBorder.m */,
 			);
 			path = OnePixe;
 			sourceTree = "<group>";
@@ -658,6 +673,7 @@
 				77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */,
 				0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */,
 				777632EA1D30E8FC00E4945A /* KVTouchView.m in Sources */,
+				77751C141D6815CC0088291E /* VCOnePixelBoder.m in Sources */,
 				0AF4CD241B92BBAD00A5E95F /* MainTableViewController.m in Sources */,
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
 				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
@@ -679,10 +695,12 @@
 				0A1DEE9F1B993F1E0060A7D3 /* RegexTestViewController.m in Sources */,
 				0A1DEEA21B9942640060A7D3 /* NSString+Regex.m in Sources */,
 				777C1A7C1D534F0B00A94083 /* KVSpayButton.m in Sources */,
+				77751C1B1D682B0C0088291E /* UIView+OnePixelBorder.m in Sources */,
 				777C1A791D534EC900A94083 /* VCShelterTest.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
 				776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */,
 				77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */,
+				77751C111D6815AF0088291E /* VWBorder.m in Sources */,
 				77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */,
 				77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */,
 				777632E71D30DFD000E4945A /* VCHitest.m in Sources */,

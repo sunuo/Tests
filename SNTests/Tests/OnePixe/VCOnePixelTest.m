@@ -20,7 +20,7 @@
     
     CGFloat height =CGRectGetHeight(self.view.frame);
     
-    UIView* lineOne  = [[UIView alloc] initWithFrame:CGRectMake(20,0,1.0f/kMainScreenScale,height)];
+    UIView* lineOne  = [[UIView alloc] initWithFrame:CGRectMake(20+SINGLE_LINE_ADJUST_OFFSET,0,1.0f/kMainScreenScale,height)];
     [lineOne setBackgroundColor:[UIColor greenColor]];
     
     UIView* lineTwo  = [[UIView alloc] initWithFrame:CGRectMake(40+0.5,0,1.0f/kMainScreenScale,height)];
