@@ -18,13 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-//    NSMutableArray* array=[[NSMutableArray alloc] initWithArray:@[@"1",@"2",@"3",@"4"]];
-    
-//    for (NSString* STR in array) {
-//        NSLog(@"array count %lu current index %lu STR:::%@",(unsigned long)[array count],(unsigned long)[array indexOfObject:STR],STR);
-//        [array removeObject:STR];
-//        NSLog(@"array count %lu",(unsigned long)[array count]);
-//    }
+
     
 //    for (NSInteger i = 0; i<[array count]; i++) {
 //        

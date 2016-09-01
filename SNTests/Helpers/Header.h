@@ -15,6 +15,8 @@
 #define SINGLE_LINE_ADJUST_OFFSET   ((1 / [UIScreen mainScreen].scale) / 2)
 
 
+#define NSPoint(x,y) ([NSValue valueWithCGPoint:CGPointMake(x, y)])
+
 #define COLOR_RGB(r,g,b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1.0f]
 #define COLOR_RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define DWidth     ([UIScreen mainScreen].bounds.size.width)

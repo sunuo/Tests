@@ -22,19 +22,27 @@
     [self.view setBackgroundColor:[UIColor blackColor]];
     
 
-    CGFloat pixelScale = [UIScreen mainScreen].scale;
+//    CGFloat pixelScale = [UIScreen mainScreen].scale;
     
-    UIView* vw1 = [[UIView alloc] initWithFrame:CGRectMake(20.500000, 200.500000, 80.000000, 40.00000)];
+    UIView* vw1 = [[UIView alloc] initWithFrame:CGRectMake(11, 100, 10, 10)];
     [vw1.layer setBorderColor:[UIColor greenColor].CGColor];
-    [vw1.layer setBorderWidth:(1.0f/pixelScale)];
-    
-    UIView* vw2 = [[UIView alloc] initWithFrame:CGRectMake(20.500000, 300.500000, 80.000000, 40.00000)];
-    [vw2.layer setBorderColor:[UIColor greenColor].CGColor];
-    [vw2.layer setBorderWidth:(1.0f/pixelScale)];
-    [vw2 resizeForBorder];
-    
+    [vw1.layer setBorderWidth:4];
+    [vw1 setBackgroundColor:[UIColor redColor]];
+
     [self.view addSubview:vw1];
-    [self.view addSubview:vw2];
+    
+//    UIView* vw1 = [[UIView alloc] initWithFrame:CGRectMake(321.000000, 100+32.500000, 84.000000, 38.500000)];
+//    [vw1.layer setBorderColor:[UIColor greenColor].CGColor];
+//    [vw1.layer setBorderWidth:(1.0f/pixelScale)];
+//    [vw1 resizeForBorder];
+//    
+//    UIView* vw2 = [[UIView alloc] initWithFrame:CGRectMake(20.500000, 300.500000, 80.000000, 40.00000)];
+//    [vw2.layer setBorderColor:[UIColor greenColor].CGColor];
+//    [vw2.layer setBorderWidth:(1.0f/pixelScale)];
+//    [vw2 resizeForBorder];
+//    
+//    [self.view addSubview:vw1];
+//    [self.view addSubview:vw2];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -43,18 +43,27 @@
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
 		776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */; };
+		7771C3921D77C63B00DD5194 /* KVDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3911D77C63B00DD5194 /* KVDrawView.m */; };
+		7771C3951D77C65600DD5194 /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3941D77C65600DD5194 /* UIView+Draw.m */; };
+		7771C3991D782BB200DD5194 /* SvGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3981D782BB200DD5194 /* SvGifView.m */; };
+		7771C39C1D7833EE00DD5194 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C39B1D7833EE00DD5194 /* UIImage+animatedGIF.m */; };
 		77751C111D6815AF0088291E /* VWBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C101D6815AF0088291E /* VWBorder.m */; };
 		77751C141D6815CC0088291E /* VCOnePixelBoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C131D6815CC0088291E /* VCOnePixelBoder.m */; };
 		77751C1B1D682B0C0088291E /* UIView+OnePixelBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C1A1D682B0C0088291E /* UIView+OnePixelBorder.m */; };
 		777632E71D30DFD000E4945A /* VCHitest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E61D30DFD000E4945A /* VCHitest.m */; };
 		777632EA1D30E8FC00E4945A /* KVTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E91D30E8FC00E4945A /* KVTouchView.m */; };
 		777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632EC1D30EA4300E4945A /* VCTouchTest.m */; };
+		777841331D76C6EA009C294F /* VCGIFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777841321D76C6EA009C294F /* VCGIFTest.m */; };
+		777841351D76D049009C294F /* GIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 777841341D76D049009C294F /* GIF.gif */; };
+		7778413C1D76F7DF009C294F /* VCAnimatest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7778413B1D76F7DF009C294F /* VCAnimatest.m */; };
 		777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719A1D1CE483001D2F4A /* VCKVOTest.m */; };
 		777A719E1D1CE560001D2F4A /* KVOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719D1D1CE560001D2F4A /* KVOView.m */; };
 		777C1A791D534EC900A94083 /* VCShelterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A781D534EC900A94083 /* VCShelterTest.m */; };
 		777C1A7C1D534F0B00A94083 /* KVSpayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A7B1D534F0B00A94083 /* KVSpayButton.m */; };
 		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
 		77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77828A171D06D43A00D39FAE /* InfoPlist.strings */; };
+		77843BF01D6D8FAB00EB9C5C /* OBJKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BEF1D6D8FAB00EB9C5C /* OBJKVC.m */; };
+		77843BF31D6D8FDD00EB9C5C /* VCKVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BF21D6D8FDD00EB9C5C /* VCKVCTest.m */; };
 		77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */; };
 		77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A01D39EC49003117C7 /* VWTransparent.m */; };
 		77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A31D3A086F003117C7 /* VCHitestTransverse.m */; };
@@ -68,6 +77,7 @@
 		77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */; };
 		77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A01CF7E18D00351C41 /* BlockTest.m */; };
 		77F814A41CF7E35A00351C41 /* BlockTestMRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A31CF7E35A00351C41 /* BlockTestMRC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		79777A40513CB450CE58BB2B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DAA5B4F282CFA3C540E65 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +126,7 @@
 		0AF4CD251B92BEAB00A5E95F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		0AF7924D1D4F9F8C00589D71 /* VCTouchAndGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchAndGesture.h; sourceTree = "<group>"; };
 		0AF7924E1D4F9F8C00589D71 /* VCTouchAndGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchAndGesture.m; sourceTree = "<group>"; };
+		3D13F7098E6E34A888844EF0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		770C41101D17E7D200FFE677 /* VCTagTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTagTest.h; sourceTree = "<group>"; };
 		770C41111D17E7D200FFE677 /* VCTagTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTagTest.m; sourceTree = "<group>"; };
 		771AEFB41D519D2C00D4C3C7 /* VCHitVSGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCHitVSGesture.h; sourceTree = "<group>"; };
@@ -147,6 +158,14 @@
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
 		776EC36F1D2F57BB00F9287F /* VCSubViewHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSubViewHierarchy.h; sourceTree = "<group>"; };
 		776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSubViewHierarchy.m; sourceTree = "<group>"; };
+		7771C3901D77C63B00DD5194 /* KVDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVDrawView.h; sourceTree = "<group>"; };
+		7771C3911D77C63B00DD5194 /* KVDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVDrawView.m; sourceTree = "<group>"; };
+		7771C3931D77C65600DD5194 /* UIView+Draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
+		7771C3941D77C65600DD5194 /* UIView+Draw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
+		7771C3971D782BB200DD5194 /* SvGifView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvGifView.h; sourceTree = "<group>"; };
+		7771C3981D782BB200DD5194 /* SvGifView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvGifView.m; sourceTree = "<group>"; };
+		7771C39A1D7833EE00DD5194 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		7771C39B1D7833EE00DD5194 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 		77751C0F1D6815AF0088291E /* VWBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWBorder.h; sourceTree = "<group>"; };
 		77751C101D6815AF0088291E /* VWBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWBorder.m; sourceTree = "<group>"; };
 		77751C121D6815CC0088291E /* VCOnePixelBoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCOnePixelBoder.h; sourceTree = "<group>"; };
@@ -159,6 +178,11 @@
 		777632E91D30E8FC00E4945A /* KVTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVTouchView.m; sourceTree = "<group>"; };
 		777632EB1D30EA4300E4945A /* VCTouchTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchTest.h; sourceTree = "<group>"; };
 		777632EC1D30EA4300E4945A /* VCTouchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchTest.m; sourceTree = "<group>"; };
+		777841311D76C6EA009C294F /* VCGIFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCGIFTest.h; sourceTree = "<group>"; };
+		777841321D76C6EA009C294F /* VCGIFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCGIFTest.m; sourceTree = "<group>"; };
+		777841341D76D049009C294F /* GIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GIF.gif; sourceTree = "<group>"; };
+		7778413A1D76F7DF009C294F /* VCAnimatest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimatest.h; sourceTree = "<group>"; };
+		7778413B1D76F7DF009C294F /* VCAnimatest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimatest.m; sourceTree = "<group>"; };
 		777A71911D1CC8FC001D2F4A /* QYStripView+chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QYStripView+chain.h"; sourceTree = "<group>"; };
 		777A71991D1CE483001D2F4A /* VCKVOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCKVOTest.h; sourceTree = "<group>"; };
 		777A719A1D1CE483001D2F4A /* VCKVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVOTest.m; sourceTree = "<group>"; };
@@ -172,6 +196,10 @@
 		77828A111D06D1DC00D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		77828A191D06D44700D39FAE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		77828A1A1D06D7B800D39FAE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		77843BEE1D6D8FAB00EB9C5C /* OBJKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJKVC.h; sourceTree = "<group>"; };
+		77843BEF1D6D8FAB00EB9C5C /* OBJKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJKVC.m; sourceTree = "<group>"; };
+		77843BF11D6D8FDD00EB9C5C /* VCKVCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCKVCTest.h; sourceTree = "<group>"; };
+		77843BF21D6D8FDD00EB9C5C /* VCKVCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCKVCTest.m; sourceTree = "<group>"; };
 		77C2919C1D39EC2C003117C7 /* VCTransparentTransmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTransparentTransmit.h; sourceTree = "<group>"; };
 		77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTransparentTransmit.m; sourceTree = "<group>"; };
 		77C2919F1D39EC49003117C7 /* VWTransparent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTransparent.h; sourceTree = "<group>"; };
@@ -198,6 +226,8 @@
 		77F814A21CF7E35A00351C41 /* BlockTestMRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockTestMRC.h; sourceTree = "<group>"; };
 		77F814A31CF7E35A00351C41 /* BlockTestMRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTestMRC.m; sourceTree = "<group>"; };
 		77F814A51CF7E36A00351C41 /* BlockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockHeader.h; sourceTree = "<group>"; };
+		EA4DAA5B4F282CFA3C540E65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FD641ACFBD9596A81B51E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79777A40513CB450CE58BB2B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +288,8 @@
 				0AF4CCED1B92B9C500A5E95F /* SNTests */,
 				0AF4CD071B92B9C500A5E95F /* SNTestsTests */,
 				0AF4CCEC1B92B9C500A5E95F /* Products */,
+				25B309CDDB04025296071687 /* Pods */,
+				BD9BC29989D23A49173B7872 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -317,6 +350,9 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				777841391D76F76D009C294F /* Animate */,
+				777841301D76C397009C294F /* GIF */,
+				77843BED1D6D8F7C00EB9C5C /* KVC */,
 				7747CBF71D66B9D60056C8FB /* OnePixe */,
 				77DE1C101D59EC3700A09C0E /* UndoRedo */,
 				77DA0FDC1D58A9E0003212C9 /* BlockAndDelegate */,
@@ -360,6 +396,15 @@
 				0A1DEEA11B9942640060A7D3 /* NSString+Regex.m */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		25B309CDDB04025296071687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F26FD641ACFBD9596A81B51E /* Pods.debug.xcconfig */,
+				3D13F7098E6E34A888844EF0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		770C410F1D17E7C300FFE677 /* TagTest */ = {
@@ -436,6 +481,15 @@
 			path = Subviewtest;
 			sourceTree = "<group>";
 		};
+		7771C3961D782BB200DD5194 /* SvGifView */ = {
+			isa = PBXGroup;
+			children = (
+				7771C3971D782BB200DD5194 /* SvGifView.h */,
+				7771C3981D782BB200DD5194 /* SvGifView.m */,
+			);
+			path = SvGifView;
+			sourceTree = "<group>";
+		};
 		777632E41D30DFC300E4945A /* HitTesting */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +524,32 @@
 			path = HitTesting;
 			sourceTree = "<group>";
 		};
+		777841301D76C397009C294F /* GIF */ = {
+			isa = PBXGroup;
+			children = (
+				7771C3961D782BB200DD5194 /* SvGifView */,
+				777841341D76D049009C294F /* GIF.gif */,
+				777841311D76C6EA009C294F /* VCGIFTest.h */,
+				777841321D76C6EA009C294F /* VCGIFTest.m */,
+			);
+			path = GIF;
+			sourceTree = "<group>";
+		};
+		777841391D76F76D009C294F /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				7771C39A1D7833EE00DD5194 /* UIImage+animatedGIF.h */,
+				7771C39B1D7833EE00DD5194 /* UIImage+animatedGIF.m */,
+				7778413A1D76F7DF009C294F /* VCAnimatest.h */,
+				7778413B1D76F7DF009C294F /* VCAnimatest.m */,
+				7771C3901D77C63B00DD5194 /* KVDrawView.h */,
+				7771C3911D77C63B00DD5194 /* KVDrawView.m */,
+				7771C3931D77C65600DD5194 /* UIView+Draw.h */,
+				7771C3941D77C65600DD5194 /* UIView+Draw.m */,
+			);
+			path = Animate;
+			sourceTree = "<group>";
+		};
 		777A71981D1CE46D001D2F4A /* KVOTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -479,6 +559,17 @@
 				777A719D1D1CE560001D2F4A /* KVOView.m */,
 			);
 			path = KVOTest;
+			sourceTree = "<group>";
+		};
+		77843BED1D6D8F7C00EB9C5C /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				77843BEE1D6D8FAB00EB9C5C /* OBJKVC.h */,
+				77843BEF1D6D8FAB00EB9C5C /* OBJKVC.m */,
+				77843BF11D6D8FDD00EB9C5C /* VCKVCTest.h */,
+				77843BF21D6D8FDD00EB9C5C /* VCKVCTest.m */,
+			);
+			path = KVC;
 			sourceTree = "<group>";
 		};
 		77DA0FDC1D58A9E0003212C9 /* BlockAndDelegate */ = {
@@ -548,6 +639,14 @@
 			path = BlockTest;
 			sourceTree = "<group>";
 		};
+		BD9BC29989D23A49173B7872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA4DAA5B4F282CFA3C540E65 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -555,9 +654,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AF4CD0E1B92B9C500A5E95F /* Build configuration list for PBXNativeTarget "SNTests" */;
 			buildPhases = (
+				AD82D430BE209DC3BB67762B /* Check Pods Manifest.lock */,
 				0AF4CCE71B92B9C500A5E95F /* Sources */,
 				0AF4CCE81B92B9C500A5E95F /* Frameworks */,
 				0AF4CCE91B92B9C500A5E95F /* Resources */,
+				67E6C48E1FC5023280751EEB /* Embed Pods Frameworks */,
+				D1945CABD2178684444F99FF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -641,6 +743,7 @@
 				0AF4CCFA1B92B9C500A5E95F /* Main.storyboard in Resources */,
 				77D438FE1D51F3E7009FDBE9 /* memda.jpg in Resources */,
 				0AF4CCFF1B92B9C500A5E95F /* LaunchScreen.xib in Resources */,
+				777841351D76D049009C294F /* GIF.gif in Resources */,
 				7721E3371D21120D007537D6 /* collection.png in Resources */,
 				0AF4CCFC1B92B9C500A5E95F /* Images.xcassets in Resources */,
 			);
@@ -655,22 +758,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67E6C48E1FC5023280751EEB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD82D430BE209DC3BB67762B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1945CABD2178684444F99FF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AF4CCE71B92B9C500A5E95F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0AF4CD211B92BAF500A5E95F /* VCBased.m in Sources */,
+				777841331D76C6EA009C294F /* VCGIFTest.m in Sources */,
 				0A1DEE901B986B650060A7D3 /* Animate_Autolayout_ViewController.m in Sources */,
+				7771C3951D77C65600DD5194 /* UIView+Draw.m in Sources */,
 				77EFCE871D1ABC6700153981 /* VCStripViewTest.m in Sources */,
+				77843BF31D6D8FDD00EB9C5C /* VCKVCTest.m in Sources */,
 				771AEFB91D51A34600D4C3C7 /* VCResponderChainTest.m in Sources */,
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
+				7771C39C1D7833EE00DD5194 /* UIImage+animatedGIF.m in Sources */,
 				7747CBFA1D66B9EA0056C8FB /* VCOnePixelTest.m in Sources */,
 				0AF7924F1D4F9F8C00589D71 /* VCTouchAndGesture.m in Sources */,
 				777632ED1D30EA4300E4945A /* VCTouchTest.m in Sources */,
 				777A719B1D1CE483001D2F4A /* VCKVOTest.m in Sources */,
 				0AE8E1041B99A95D00CCC714 /* AutoLayoutTestViewController.m in Sources */,
 				77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */,
+				7771C3921D77C63B00DD5194 /* KVDrawView.m in Sources */,
 				0A1DEE941B986CA40060A7D3 /* VFLExtensionViewController.m in Sources */,
 				777632EA1D30E8FC00E4945A /* KVTouchView.m in Sources */,
 				77751C141D6815CC0088291E /* VCOnePixelBoder.m in Sources */,
@@ -678,6 +834,8 @@
 				0AF4CCF11B92B9C500A5E95F /* main.m in Sources */,
 				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
 				772804641D616E6A001CD351 /* KVTouchExpandView.m in Sources */,
+				7778413C1D76F7DF009C294F /* VCAnimatest.m in Sources */,
+				77843BF01D6D8FAB00EB9C5C /* OBJKVC.m in Sources */,
 				771AEFB61D519D2C00D4C3C7 /* VCHitVSGesture.m in Sources */,
 				770C41121D17E7D200FFE677 /* VCTagTest.m in Sources */,
 				772BBF201D0FA2B6003B0191 /* VCFontHeightest.m in Sources */,
@@ -706,6 +864,7 @@
 				777632E71D30DFD000E4945A /* VCHitest.m in Sources */,
 				771FD1331D3F2EAA004AA3A0 /* ProtocolObj.m in Sources */,
 				77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */,
+				7771C3991D782BB200DD5194 /* SvGifView.m in Sources */,
 				777A719E1D1CE560001D2F4A /* KVOView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -851,6 +1010,7 @@
 		};
 		0AF4CD0F1B92B9C500A5E95F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26FD641ACFBD9596A81B51E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: kevin xu (LSYW5W3UU7)";
@@ -865,6 +1025,7 @@
 		};
 		0AF4CD101B92B9C500A5E95F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D13F7098E6E34A888844EF0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SNTests/Info.plist;
