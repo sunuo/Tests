@@ -9,6 +9,7 @@
 #ifndef SNTests_Header_h
 #define SNTests_Header_h
 
+#import "NSString+Helper.h"
 
 #define kMainScreenScale [UIScreen mainScreen].scale
 #define SINGLE_LINE_WIDTH           (1 / [UIScreen mainScreen].scale)
@@ -24,7 +25,7 @@
 #define float(ff) [NSNumber numberWithFloat:ff]
 #define integer(integ) [NSNumber numberWithInteger:integ]
 
-#define LOG_SELECTOR NSLog(@"LOG:::%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self)
+#define LOG_SELECTOR(str_ing) NSLog(@"LOG_KV:::%@___%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self,(str_ing))
 
 #define VIEW(type,x,y,width,height) [[type alloc] initWithFrame:CGRectMake(x,y ,width , height)]
 #define VIEW_RECT(type,rect) [[type alloc] initWithFrame:(rect)]

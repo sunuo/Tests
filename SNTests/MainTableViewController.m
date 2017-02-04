@@ -33,21 +33,49 @@
 #import "VCKVCTest.h"
 #import "VCGIFTest.h"
 #import "VCAnimatest.h"
-
+#import "VCCoreImageTest.h"
+#import "VCPhysicsEngine.h"
+#import "VCTransformTest.h"
+#import "KVButtonTest.h"
+#import "VCAudioSession.h"
+#import "VCInherit.h"
+#import "VCTouchTransfer.h"
+#import "VCImageCap.h"
+#import "VCSerialQueue.h"
+#import "VCSimpleTest.h"
+#import "VCUserdefaultest.h"
+#import "VCSynchronize.h"
+#import "KVWebViewController.h"
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
 #define ADD_CONTROLLER(key,class) [self.aryContent addObject:@{KEY_NAME:(key),KEY_CLASS:(class)}];
 
 @interface MainTableViewController ()
 @property(nonatomic,retain)NSMutableArray* aryContent;
+@property(nonatomic,strong)UIAttachmentBehavior* attachmentBehavior;
 @end
 
-@implementation MainTableViewController
+@implementation MainTableViewController- (void)viewDidLoad {
 
-- (void)viewDidLoad {
+
     [super viewDidLoad];
     
+//    [self.dynamicAnimator addBehavior:self.attachmentBehavior];
+    
+    ADD_CONTROLLER(@"KVWebViewController",[KVWebViewController class]);
+    ADD_CONTROLLER(@"VCSynchronize",[VCSynchronize class]);
+    ADD_CONTROLLER(@"VCUserdefaultest",[VCUserdefaultest class]);
+    ADD_CONTROLLER(@"VCSimpleTest",[VCSimpleTest class]);
+    ADD_CONTROLLER(@"VCSerialQueue",[VCSerialQueue class]);
+    ADD_CONTROLLER(@"VCImageCap",[VCImageCap class]);
+    ADD_CONTROLLER(@"VCTouchTransfer",[VCTouchTransfer class]);
+    ADD_CONTROLLER(@"VCInherit",[VCInherit class]);
+    ADD_CONTROLLER(@"VCAudioSession",[VCAudioSession class]);
+    ADD_CONTROLLER(@"KVButtonTest",[KVButtonTest class]);
+    ADD_CONTROLLER(@"TransformTest",[VCTransformTest class]);
+    ADD_CONTROLLER(@"VCPhysicsEngine",[VCPhysicsEngine class]);
     ADD_CONTROLLER(@"VCAnimatest",[VCAnimatest class]);
+    ADD_CONTROLLER(@"VCCoreImageTest",[VCCoreImageTest class]);
     ADD_CONTROLLER(@"VCGIFTest",[VCGIFTest class]);
     ADD_CONTROLLER(@"KVC test",[VCKVCTest class]);
     ADD_CONTROLLER(@"one pixel border",[VCOnePixelBoder class]);
@@ -75,6 +103,21 @@
     ADD_CONTROLLER(@"画中画", [VCPIPTest class]);
     
 
+}
+
+//-(UIAttachmentBehavior*)attachmentBehavior
+//{
+//    if (!_attachmentBehavior) {
+//        _attachmentBehavior
+//    }
+//}
+
+-(UIDynamicAnimator*)dynamicAnimator
+{
+    if (!_dynamicAnimator) {
+        _dynamicAnimator = [[UIDynamicAnimator alloc] initWithReferenceView:self.tableView];
+    }
+    return _dynamicAnimator;
 }
 
 -(NSMutableArray*)aryContent
@@ -106,6 +149,16 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MainTableViewCell" forIndexPath:indexPath];
     
+    if (cell) {
+//        UIAttachmentBehavior *spring = [[UIAttachmentBehavior alloc] initWithItem:cell attachedToAnchor:cell.center];
+//        
+//        spring.length = 0;
+//        spring.damping = 0.5;
+//        spring.frequency = 0.8;
+//        
+//        [self.dynamicAnimator addBehavior:spring];
+    }
+    
     cell.textLabel.text=[[self.aryContent objectAtIndex:[indexPath row]] objectForKey:KEY_NAME];
     
     return cell;
@@ -122,6 +175,11 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 60;
+}
+
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    NSLog(@"%f",scrollView.contentOffset.y);
 }
 
 

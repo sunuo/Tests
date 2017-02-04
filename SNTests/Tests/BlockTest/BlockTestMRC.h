@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "BlockHeader.h"
-@interface BlockTestMRC : UIViewController
 
+
+@interface BlockTestMRC : UIViewController
+@property(nonatomic,assign)id delegate;
 @end

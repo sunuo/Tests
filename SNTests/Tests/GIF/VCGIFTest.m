@@ -19,9 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.view setBackgroundColor:[UIColor whiteColor]];
+    
+    UIImage* imagetest  = [UIImage imageNamed:@"fp.jpg"];
+    UIButton* button  = [[UIButton alloc] init];
+    [button setImage:imagetest forState:UIControlStateNormal];
+    UIImage* imageButton = button.imageView.image;
+    UIImage* imageButton2 = button.currentImage;
     // Do any additional setup after loading the view.
     UIImageView* imageview2=[[UIImageView alloc] init];
-    UIImage* image = [UIImage animatedImageWithAnimatedGIFData:[NSData dataWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"GIF" ofType:@"gif"]]] ];
+    UIImage* image = [UIImage animatedImageWithAnimatedGIFData:[NSData dataWithContentsOfURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"ybyq" ofType:@"gif"]]] ];
 //    UIImage* image = [UIImage sd_animatedGIFNamed:@"GIF"];
     [imageview2 setImage:image];
     
@@ -32,7 +38,7 @@
     UIImageView* imageview=[[UIImageView alloc] init];
    
     
-    [imageview sd_setImageWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"GIF" ofType:@"gif"]] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+    [imageview sd_setImageWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"ybyq" ofType:@"gif"]] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
       
        [imageview setImage:image];
         
@@ -40,18 +46,8 @@
        
        [imageview setFrame:CGRectMake(0, CGRectGetMaxY(imageview2.frame), self.view.frame.size.width, self.view.frame.size.width*image.size.height/image.size.width)];
         
-       
-        
-//    //SvGifView* gifView  =  [[SvGifView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(imageview.frame), CGRectGetWidth(imageview.frame), CGRectGetHeight(imageview.frame))fileURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"GIF" ofType:@"gif"]]];
-//        
-//       SvGifView* gifView  =  [[SvGifView alloc] initWithCenter:self.view.center fileURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"GIF" ofType:@"gif"]]];
-//       
-//       [self.view addSubview:gifView];
-//        
-//        [gifView startGif];
-        
     }];
-    
+//
     
 }
 

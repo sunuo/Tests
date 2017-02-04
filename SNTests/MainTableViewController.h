@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MainTableViewController : UITableViewController
-
+@property(nonatomic,strong)UIDynamicAnimator* dynamicAnimator;
 @end

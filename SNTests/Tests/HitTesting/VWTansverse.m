@@ -23,7 +23,8 @@
     NSLog(@"name:::%@___%@",self.name,NSStringFromSelector(_cmd));
     UIView* view = [super hitTest:point withEvent:event];
     if (view!=nil) {
-        NSLog(@"result view ;;; %@-------------------",((VWTansverse*)view).name);
+        //NSLog(@"result view ;;; %@-------------------",((VWTansverse*)viewname);
+        NSLog(@"result view ;;; %@-------------------",view);
     }
     return view;
 }
