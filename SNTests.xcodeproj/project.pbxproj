@@ -83,7 +83,6 @@
 		777C1A7C1D534F0B00A94083 /* KVSpayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A7B1D534F0B00A94083 /* KVSpayButton.m */; };
 		777F14421D9A1DB5003FD732 /* fp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 777F14411D9A1DB5003FD732 /* fp.jpg */; };
 		77828A0F1D06D1A800D39FAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
-		77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77828A171D06D43A00D39FAE /* InfoPlist.strings */; };
 		77843BF01D6D8FAB00EB9C5C /* OBJKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BEF1D6D8FAB00EB9C5C /* OBJKVC.m */; };
 		77843BF31D6D8FDD00EB9C5C /* VCKVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BF21D6D8FDD00EB9C5C /* VCKVCTest.m */; };
 		779AA3181E027E6800FD66F7 /* VCUserdefaultest.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3171E027E6800FD66F7 /* VCUserdefaultest.m */; };
@@ -96,6 +95,7 @@
 		77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A01D39EC49003117C7 /* VWTransparent.m */; };
 		77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A31D3A086F003117C7 /* VCHitestTransverse.m */; };
 		77C291A71D3A0907003117C7 /* VWTansverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A61D3A0907003117C7 /* VWTansverse.m */; };
+		77C65F0B1EAF886C00861955 /* TCDynamicTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C65F0A1EAF886C00861955 /* TCDynamicTable.m */; };
 		77D438FE1D51F3E7009FDBE9 /* memda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77D438FD1D51F3E7009FDBE9 /* memda.jpg */; };
 		77D975641DF021C8009C501F /* VCSimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D975631DF021C8009C501F /* VCSimpleTest.m */; };
 		77DA0FDF1D58A9F4003212C9 /* VCDecouple.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DA0FDE1D58A9F4003212C9 /* VCDecouple.m */; };
@@ -286,6 +286,8 @@
 		77C291A31D3A086F003117C7 /* VCHitestTransverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCHitestTransverse.m; sourceTree = "<group>"; };
 		77C291A51D3A0907003117C7 /* VWTansverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VWTansverse.h; sourceTree = "<group>"; };
 		77C291A61D3A0907003117C7 /* VWTansverse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VWTansverse.m; sourceTree = "<group>"; };
+		77C65F091EAF886C00861955 /* TCDynamicTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDynamicTable.h; sourceTree = "<group>"; };
+		77C65F0A1EAF886C00861955 /* TCDynamicTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDynamicTable.m; sourceTree = "<group>"; };
 		77D438FD1D51F3E7009FDBE9 /* memda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = memda.jpg; sourceTree = "<group>"; };
 		77D975621DF021C8009C501F /* VCSimpleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSimpleTest.h; sourceTree = "<group>"; };
 		77D975631DF021C8009C501F /* VCSimpleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSimpleTest.m; sourceTree = "<group>"; };
@@ -437,6 +439,7 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				77C65F051EAF87F600861955 /* DynamicTable */,
 				7753EACE1E23A849009BDFDB /* TransparentWebView */,
 				779AA3371E03F14800FD66F7 /* Synchronize */,
 				779AA3121E027E1600FD66F7 /* VCUserDefault */,
@@ -775,6 +778,15 @@
 			name = ImageCap;
 			sourceTree = "<group>";
 		};
+		77C65F051EAF87F600861955 /* DynamicTable */ = {
+			isa = PBXGroup;
+			children = (
+				77C65F091EAF886C00861955 /* TCDynamicTable.h */,
+				77C65F0A1EAF886C00861955 /* TCDynamicTable.m */,
+			);
+			name = DynamicTable;
+			sourceTree = "<group>";
+		};
 		77D975611DF021B2009C501F /* VCTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -985,7 +997,6 @@
 				7721E3381D21120D007537D6 /* favorite.png in Resources */,
 				77ED44CA1D13AA5800A4277B /* samplemovie.mov in Resources */,
 				7721E3391D21120D007537D6 /* push.png in Resources */,
-				77828A151D06D43A00D39FAE /* InfoPlist.strings in Resources */,
 				777F14421D9A1DB5003FD732 /* fp.jpg in Resources */,
 				0AE8E1061B99A99100CCC714 /* AutoLayoutTestViewController.xib in Resources */,
 				775BF9FD1DDBFD600033FF69 /* SingletonTest in Resources */,
@@ -1131,6 +1142,7 @@
 				77751C1B1D682B0C0088291E /* UIView+OnePixelBorder.m in Sources */,
 				777C1A791D534EC900A94083 /* VCShelterTest.m in Sources */,
 				0AF4CD1C1B92BA7500A5E95F /* ObjCall.m in Sources */,
+				77C65F0B1EAF886C00861955 /* TCDynamicTable.m in Sources */,
 				776EC3711D2F57BB00F9287F /* VCSubViewHierarchy.m in Sources */,
 				7743BEBF1D9A958C0049D613 /* MRC_OBC2.m in Sources */,
 				77C291A41D3A086F003117C7 /* VCHitestTransverse.m in Sources */,

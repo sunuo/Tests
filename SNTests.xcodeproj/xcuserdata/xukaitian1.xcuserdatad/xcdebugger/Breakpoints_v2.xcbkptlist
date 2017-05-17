@@ -80,7 +80,7 @@
             startingLineNumber = "15"
             endingLineNumber = "15"
             landmarkName = "-touchesBegan:withEvent:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -96,7 +96,7 @@
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "-touchesMoved:withEvent:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -112,7 +112,7 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "-touchesEnded:withEvent:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +144,7 @@
             startingLineNumber = "35"
             endingLineNumber = "35"
             landmarkName = "-beginTrackingWithTouch:withEvent:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

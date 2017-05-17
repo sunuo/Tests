@@ -65,11 +65,11 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {//在实验一中，注销掉上面的 -(void)loadView 方法，则会走到这里
-    LOG_SELECTOR;
+//    LOG_SELECTOR;
 }
 
 -(void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {//在实验一中，注销掉上面的 -(void)loadView 方法，则会走到这里
-    LOG_SELECTOR;
+//    LOG_SELECTOR;
 }
 @end

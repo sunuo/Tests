@@ -88,7 +88,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 /*
 #pragma mark - Navigation
 
@@ -100,6 +99,8 @@
 */
 -(void)buttonClick
 {
+//    NSString
+//    NSLog(@"LOG_KV:::%@___%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self,(str_ing));
     LOG_SELECTOR;
 }
 

@@ -5,11 +5,12 @@
 //  Created by kevin on 15/8/30.
 //  Copyright (c) 2015年 徐诺. All rights reserved.
 //
+#import "NSString+Helper.h"
 
 #ifndef SNTests_Header_h
 #define SNTests_Header_h
 
-#import "NSString+Helper.h"
+
 
 #define kMainScreenScale [UIScreen mainScreen].scale
 #define SINGLE_LINE_WIDTH           (1 / [UIScreen mainScreen].scale)
@@ -25,7 +26,8 @@
 #define float(ff) [NSNumber numberWithFloat:ff]
 #define integer(integ) [NSNumber numberWithInteger:integ]
 
-#define LOG_SELECTOR(str_ing) NSLog(@"LOG_KV:::%@___%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self,(str_ing))
+#define LOG_SELECTOR_STR(str_ing) NSLog(@"LOG_KV:::%@___%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self,(str_ing))
+#define LOG_SELECTOR NSLog(@"LOG_KV:::%@___%@___%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd),self)
 
 #define VIEW(type,x,y,width,height) [[type alloc] initWithFrame:CGRectMake(x,y ,width , height)]
 #define VIEW_RECT(type,rect) [[type alloc] initWithFrame:(rect)]

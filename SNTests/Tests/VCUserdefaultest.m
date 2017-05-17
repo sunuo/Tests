@@ -32,6 +32,11 @@
     
 }
 
+-(void)viewDidDisappear:(BOOL)animated
+{
+    [super viewDidDisappear:YES];
+     [NSObject cancelPreviousPerformRequestsWithTarget:self];
+}
 
 -(void)checkUserDefaults
 {

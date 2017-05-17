@@ -19,40 +19,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
 
-    NSError* error = nil;
-    
-    NSInteger width = 1;
-    NSInteger height = 2;
-    
-   CGFloat widthDivHeight = ((CGFloat)width)/((CGFloat)height);
-    CGFloat wdh = width/height;
-    
-    
-    NSLog(@"%@",[[NSNumber numberWithInt:5] isEqualToNumber:[NSNumber numberWithInt:5]]?@"5=5":@"5!=5");
-    NSLog(@"%@",[[NSNumber numberWithInt:5] isEqualToNumber:[NSNumber numberWithInt:4]]?@"5=4":@"5!=4");
-    
-    [NSClassFromString(@"VCTransformTest") aspect_hookSelector:@selector(viewDidLoad) withOptions:AspectPositionAfter usingBlock:^{
-        
-        NSLog(@"当一颗心沉入海底");
-        
-    } error:&error];
-    
-    if (error) {
-        NSLog(@"aspect error ::: %@",error);
-    }
-    
-    NSTimeInterval interval  =[[NSDate date] timeIntervalSince1970] * 1000;
-    NSLog(@"%lf %lu",interval,((NSUInteger)interval));
-    
-    NSString* urlStr = @"http://static.iqiyi.com/ext/cupid/lp/57ec9161cd7ae9c14cee3b81.html&cct=[CUPID_CLTIME]";
-    NSString* AD_CONSTANT_CUPID_CLTIME = @"[CUPID_CLTIME]";
-//    if([urlStr containsString:AD_CONSTANT_CUPID_CLTIME])
-    if([urlStr rangeOfString:AD_CONSTANT_CUPID_CLTIME].location!=NSNotFound)
-    {
-        urlStr = [urlStr stringByReplacingString:AD_CONSTANT_CUPID_CLTIME withString:[NSString stringWithFormat:@"%lu",((NSUInteger)interval)]];
-    }
 //    for (NSInteger i = 0; i<[array count]; i++) {
 //        
 //        NSString* STR = [array objectAtIndex:i];
@@ -66,8 +33,10 @@
 //    {
 //        [URL stringByReplacingString:AD_CONSTANT_CUPID_CLTIME withString:[NSString stringWithFormat:@"%ld",(NSInteger)([[NSDate date] timeIntervalSince1970] * 1000)]];
 //    }
-//    
+//
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -46,6 +46,7 @@
 #import "VCUserdefaultest.h"
 #import "VCSynchronize.h"
 #import "KVWebViewController.h"
+#import "TCDynamicTable.h"
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
 #define ADD_CONTROLLER(key,class) [self.aryContent addObject:@{KEY_NAME:(key),KEY_CLASS:(class)}];
@@ -60,8 +61,7 @@
 
     [super viewDidLoad];
     
-//    [self.dynamicAnimator addBehavior:self.attachmentBehavior];
-    
+    ADD_CONTROLLER(@"TCDynamicTable",[TCDynamicTable class]);
     ADD_CONTROLLER(@"KVWebViewController",[KVWebViewController class]);
     ADD_CONTROLLER(@"VCSynchronize",[VCSynchronize class]);
     ADD_CONTROLLER(@"VCUserdefaultest",[VCUserdefaultest class]);
