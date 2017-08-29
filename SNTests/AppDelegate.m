@@ -35,6 +35,11 @@
 //    }
 //
     
+//    NSString* tempSecond = nil;
+//    NSDictionary *dictAttr0 = @{NSFontAttributeName:[UIFont systemFontOfSize:10.0f],NSForegroundColorAttributeName:[UIColor redColor]};
+//    NSAttributedString *attr0 = [[NSAttributedString alloc] initWithString:tempSecond
+//                                                                attributes:dictAttr0];
+    
     return YES;
     
 }

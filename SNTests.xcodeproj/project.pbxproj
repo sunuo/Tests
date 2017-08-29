@@ -49,6 +49,7 @@
 		7743BEBF1D9A958C0049D613 /* MRC_OBC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743BEBE1D9A958C0049D613 /* MRC_OBC2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7747CBFA1D66B9EA0056C8FB /* VCOnePixelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */; };
 		7747CBFD1D66EDAA0056C8FB /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747CBFC1D66EDAA0056C8FB /* DrawView.m */; };
+		77495F971F06413A003E19BD /* VCLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77495F961F06413A003E19BD /* VCLabelViewController.m */; };
 		7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
 		7749F55F1D06D0B100D9A1F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
 		7753EAD11E23AD2F009BDFDB /* KVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7753EAD01E23AD2F009BDFDB /* KVWebViewController.m */; };
@@ -87,9 +88,117 @@
 		77843BF31D6D8FDD00EB9C5C /* VCKVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BF21D6D8FDD00EB9C5C /* VCKVCTest.m */; };
 		779AA3181E027E6800FD66F7 /* VCUserdefaultest.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3171E027E6800FD66F7 /* VCUserdefaultest.m */; };
 		779AA33A1E03F15F00FD66F7 /* VCSynchronize.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3391E03F15F00FD66F7 /* VCSynchronize.m */; };
+		77A8C3671F1DB1A100414ADB /* MRCBlockHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743BEBB1D9A90290049D613 /* MRCBlockHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77A8C3681F1DB1A100414ADB /* MRC_OBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743BEB81D9A8D4D0049D613 /* MRC_OBJ.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77A8C3691F1DB1A100414ADB /* VCBased.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1F1B92BAF500A5E95F /* VCBased.m */; };
+		77A8C36A1F1DB1A100414ADB /* VCGIFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777841321D76C6EA009C294F /* VCGIFTest.m */; };
+		77A8C36B1F1DB1A100414ADB /* Animate_Autolayout_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE8F1B986B650060A7D3 /* Animate_Autolayout_ViewController.m */; };
+		77A8C36C1F1DB1A100414ADB /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3941D77C65600DD5194 /* UIView+Draw.m */; };
+		77A8C36D1F1DB1A100414ADB /* VCStripViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE861D1ABC6700153981 /* VCStripViewTest.m */; };
+		77A8C36E1F1DB1A100414ADB /* VCKVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BF21D6D8FDD00EB9C5C /* VCKVCTest.m */; };
+		77A8C36F1F1DB1A100414ADB /* VCResponderChainTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 771AEFB81D51A34600D4C3C7 /* VCResponderChainTest.m */; };
+		77A8C3701F1DB1A100414ADB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CCF31B92B9C500A5E95F /* AppDelegate.m */; };
+		77A8C3711F1DB1A100414ADB /* VCUserdefaultest.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3171E027E6800FD66F7 /* VCUserdefaultest.m */; };
+		77A8C3721F1DB1A100414ADB /* VCPhysicsEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 773F9B851D7D451E0027E2CB /* VCPhysicsEngine.m */; };
+		77A8C3731F1DB1A100414ADB /* VCLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77495F961F06413A003E19BD /* VCLabelViewController.m */; };
+		77A8C3741F1DB1A100414ADB /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C39B1D7833EE00DD5194 /* UIImage+animatedGIF.m */; };
+		77A8C3751F1DB1A100414ADB /* VCOnePixelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */; };
+		77A8C3761F1DB1A100414ADB /* VCTouchAndGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7924E1D4F9F8C00589D71 /* VCTouchAndGesture.m */; };
+		77A8C3771F1DB1A100414ADB /* VCTouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632EC1D30EA4300E4945A /* VCTouchTest.m */; };
+		77A8C3781F1DB1A100414ADB /* SingletonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 775BF9FC1DDBFD600033FF69 /* SingletonTest.m */; };
+		77A8C3791F1DB1A100414ADB /* VCKVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719A1D1CE483001D2F4A /* VCKVOTest.m */; };
+		77A8C37A1F1DB1A100414ADB /* VCAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754571E1D8FE1C000386611 /* VCAudioSession.m */; };
+		77A8C37B1F1DB1A100414ADB /* AutoLayoutTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE8E1031B99A95D00CCC714 /* AutoLayoutTestViewController.m */; };
+		77A8C37C1F1DB1A100414ADB /* VWTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A01D39EC49003117C7 /* VWTransparent.m */; };
+		77A8C37D1F1DB1A100414ADB /* VCSimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D975631DF021C8009C501F /* VCSimpleTest.m */; };
+		77A8C37E1F1DB1A100414ADB /* KVDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3911D77C63B00DD5194 /* KVDrawView.m */; };
+		77A8C37F1F1DB1A100414ADB /* VFLExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE931B986CA40060A7D3 /* VFLExtensionViewController.m */; };
+		77A8C3801F1DB1A100414ADB /* VCImageCap.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B0E3461DBF5A2000ACE9D1 /* VCImageCap.m */; };
+		77A8C3811F1DB1A100414ADB /* VCCoreImageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C39F1D7925E500DD5194 /* VCCoreImageTest.m */; };
+		77A8C3821F1DB1A100414ADB /* KVTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E91D30E8FC00E4945A /* KVTouchView.m */; };
+		77A8C3831F1DB1A100414ADB /* VCOnePixelBoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C131D6815CC0088291E /* VCOnePixelBoder.m */; };
+		77A8C3841F1DB1A100414ADB /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */; };
+		77A8C3851F1DB1A100414ADB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CCF01B92B9C500A5E95F /* main.m */; };
+		77A8C3861F1DB1A100414ADB /* QYInheritTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EC8EC61D816ED60039FB39 /* QYInheritTest.m */; };
+		77A8C3871F1DB1A100414ADB /* UIImage+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3A41D79577000DD5194 /* UIImage+Helpers.m */; };
+		77A8C3881F1DB1A100414ADB /* VCLocalizeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */; };
+		77A8C3891F1DB1A100414ADB /* VCTableViewControllerOnePixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BB68901F0C9571008D0D4B /* VCTableViewControllerOnePixel.m */; };
+		77A8C38A1F1DB1A100414ADB /* KVTouchExpandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 772804631D616E6A001CD351 /* KVTouchExpandView.m */; };
+		77A8C38B1F1DB1A100414ADB /* VCAnimatest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7778413B1D76F7DF009C294F /* VCAnimatest.m */; };
+		77A8C38C1F1DB1A100414ADB /* Thread.mm in Sources */ = {isa = PBXBuildFile; fileRef = 770AF4171DDC5AFB009B0804 /* Thread.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77A8C38D1F1DB1A100414ADB /* VCSynchronize.m in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3391E03F15F00FD66F7 /* VCSynchronize.m */; };
+		77A8C38E1F1DB1A100414ADB /* OBJKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77843BEF1D6D8FAB00EB9C5C /* OBJKVC.m */; };
+		77A8C38F1F1DB1A100414ADB /* VCHitVSGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 771AEFB51D519D2C00D4C3C7 /* VCHitVSGesture.m */; };
+		77A8C3901F1DB1A100414ADB /* VCTagTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 770C41111D17E7D200FFE677 /* VCTagTest.m */; };
+		77A8C3911F1DB1A100414ADB /* VCFontHeightest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772BBF1F1D0FA2B6003B0191 /* VCFontHeightest.m */; };
+		77A8C3921F1DB1A100414ADB /* VCCallEachOtherTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD1A1B92BA7500A5E95F /* VCCallEachOtherTest.m */; };
+		77A8C3931F1DB1A100414ADB /* VWTansverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A61D3A0907003117C7 /* VWTansverse.m */; };
+		77A8C3941F1DB1A100414ADB /* KVButtonTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77306F7A1D86A29F0043AB59 /* KVButtonTest.m */; };
+		77A8C3951F1DB1A100414ADB /* VCUndoRedo.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DE1C121D59EC4700A09C0E /* VCUndoRedo.m */; };
+		77A8C3961F1DB1A100414ADB /* VCImageViewModeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 772F00D41CF6AA75009F103A /* VCImageViewModeTest.m */; };
+		77A8C3971F1DB1A100414ADB /* NSLayoutConstraint+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE971B9898B70060A7D3 /* NSLayoutConstraint+Extentsion.m */; };
+		77A8C3981F1DB1A100414ADB /* VCTransformTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E31D901D7FE87F00583A0E /* VCTransformTest.m */; };
+		77A8C3991F1DB1A100414ADB /* VCTransparentTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */; };
+		77A8C39A1F1DB1A100414ADB /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7747CBFC1D66EDAA0056C8FB /* DrawView.m */; };
+		77A8C39B1F1DB1A100414ADB /* BlockTestMRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A31CF7E35A00351C41 /* BlockTestMRC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77A8C39C1F1DB1A100414ADB /* QYStripButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 772FC3F61D1B9FD10054ED4A /* QYStripButton.m */; };
+		77A8C39D1F1DB1A100414ADB /* VCDecouple.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DA0FDE1D58A9F4003212C9 /* VCDecouple.m */; };
+		77A8C39E1F1DB1A100414ADB /* VCSerialQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 772C986D1DDB378700B03533 /* VCSerialQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77A8C39F1F1DB1A100414ADB /* KVWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7753EAD01E23AD2F009BDFDB /* KVWebViewController.m */; };
+		77A8C3A01F1DB1A100414ADB /* VCInherit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EEF5741D93CF8E00243051 /* VCInherit.m */; };
+		77A8C3A11F1DB1A100414ADB /* VCProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 771FD12F1D3F2E7A004AA3A0 /* VCProtocol.m */; };
+		77A8C3A21F1DB1A100414ADB /* RegexTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEE9E1B993F1E0060A7D3 /* RegexTestViewController.m */; };
+		77A8C3A31F1DB1A100414ADB /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DEEA11B9942640060A7D3 /* NSString+Regex.m */; };
+		77A8C3A41F1DB1A100414ADB /* KVSpayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A7B1D534F0B00A94083 /* KVSpayButton.m */; };
+		77A8C3A51F1DB1A100414ADB /* UIView+OnePixelBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C1A1D682B0C0088291E /* UIView+OnePixelBorder.m */; };
+		77A8C3A61F1DB1A100414ADB /* VCShelterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777C1A781D534EC900A94083 /* VCShelterTest.m */; };
+		77A8C3A71F1DB1A100414ADB /* ObjCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF4CD191B92BA7500A5E95F /* ObjCall.m */; };
+		77A8C3A81F1DB1A100414ADB /* TCDynamicTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C65F0A1EAF886C00861955 /* TCDynamicTable.m */; };
+		77A8C3A91F1DB1A100414ADB /* VCSubViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 776EC3701D2F57BB00F9287F /* VCSubViewHierarchy.m */; };
+		77A8C3AA1F1DB1A100414ADB /* MRC_OBC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 7743BEBE1D9A958C0049D613 /* MRC_OBC2.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		77A8C3AB1F1DB1A100414ADB /* VCHitestTransverse.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A31D3A086F003117C7 /* VCHitestTransverse.m */; };
+		77A8C3AC1F1DB1A100414ADB /* VWBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77751C101D6815AF0088291E /* VWBorder.m */; };
+		77A8C3AD1F1DB1A100414ADB /* VCPIPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77ED44C71D13A89F00A4277B /* VCPIPTest.m */; };
+		77A8C3AE1F1DB1A100414ADB /* BlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 77F814A01CF7E18D00351C41 /* BlockTest.m */; };
+		77A8C3AF1F1DB1A100414ADB /* VCTouchTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B4F4B71DACC6B0000C3921 /* VCTouchTransfer.m */; };
+		77A8C3B01F1DB1A100414ADB /* VCHitest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777632E61D30DFD000E4945A /* VCHitest.m */; };
+		77A8C3B11F1DB1A100414ADB /* ProtocolObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 771FD1321D3F2EAA004AA3A0 /* ProtocolObj.m */; };
+		77A8C3B21F1DB1A100414ADB /* QYStripViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EFCE8E1D1AC17E00153981 /* QYStripViewContainer.m */; };
+		77A8C3B31F1DB1A100414ADB /* SvGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7771C3981D782BB200DD5194 /* SvGifView.m */; };
+		77A8C3B41F1DB1A100414ADB /* KVOView.m in Sources */ = {isa = PBXBuildFile; fileRef = 777A719D1D1CE560001D2F4A /* KVOView.m */; };
+		77A8C3B51F1DB1A100414ADB /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BE01C21DB471E200CB73DD /* NSString+Helper.m */; };
+		77A8C3B71F1DB1A100414ADB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4DAA5B4F282CFA3C540E65 /* libPods.a */; };
+		77A8C3B91F1DB1A100414ADB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7749F5611D06D0B100D9A1F0 /* Localizable.strings */; };
+		77A8C3BA1F1DB1A100414ADB /* car.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77EC8EC21D8169700039FB39 /* car.gif */; };
+		77A8C3BB1F1DB1A100414ADB /* shzs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 777662721D8E7E97003BA44D /* shzs.gif */; };
+		77A8C3BC1F1DB1A100414ADB /* qiong.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77306F7C1D86A3350043AB59 /* qiong.jpeg */; };
+		77A8C3BD1F1DB1A100414ADB /* op.html in Resources */ = {isa = PBXBuildFile; fileRef = 7768837C1E24915400203E20 /* op.html */; };
+		77A8C3BE1F1DB1A100414ADB /* favorite.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3341D21120D007537D6 /* favorite.png */; };
+		77A8C3BF1F1DB1A100414ADB /* samplemovie.mov in Resources */ = {isa = PBXBuildFile; fileRef = 77ED44C91D13AA5800A4277B /* samplemovie.mov */; };
+		77A8C3C01F1DB1A100414ADB /* push.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3351D21120D007537D6 /* push.png */; };
+		77A8C3C11F1DB1A100414ADB /* fp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 777F14411D9A1DB5003FD732 /* fp.jpg */; };
+		77A8C3C21F1DB1A100414ADB /* AutoLayoutTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE8E1051B99A99100CCC714 /* AutoLayoutTestViewController.xib */; };
+		77A8C3C31F1DB1A100414ADB /* SingletonTest in Resources */ = {isa = PBXBuildFile; fileRef = 775BF9FA1DDBFD600033FF69 /* SingletonTest */; };
+		77A8C3C41F1DB1A100414ADB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77828A0E1D06D1A800D39FAE /* Info.plist */; };
+		77A8C3C51F1DB1A100414ADB /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3361D21120D007537D6 /* share.png */; };
+		77A8C3C61F1DB1A100414ADB /* bcg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7768837E1E24B4A400203E20 /* bcg.jpg */; };
+		77A8C3C71F1DB1A100414ADB /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 7768837A1E247E0D00203E20 /* horse.png */; };
+		77A8C3C81F1DB1A100414ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4CCF81B92B9C500A5E95F /* Main.storyboard */; };
+		77A8C3C91F1DB1A100414ADB /* PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 7771C3A11D79271B00DD5194 /* PNG.png */; };
+		77A8C3CA1F1DB1A100414ADB /* memda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77D438FD1D51F3E7009FDBE9 /* memda.jpg */; };
+		77A8C3CB1F1DB1A100414ADB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4CCFD1B92B9C500A5E95F /* LaunchScreen.xib */; };
+		77A8C3CC1F1DB1A100414ADB /* GIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 777841341D76D049009C294F /* GIF.gif */; };
+		77A8C3CD1F1DB1A100414ADB /* collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 7721E3331D21120D007537D6 /* collection.png */; };
+		77A8C3CE1F1DB1A100414ADB /* ybyq.gif in Resources */ = {isa = PBXBuildFile; fileRef = 777662731D8E7E97003BA44D /* ybyq.gif */; };
+		77A8C3CF1F1DB1A100414ADB /* bkgrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0E3481DBF5A4000ACE9D1 /* bkgrd.png */; };
+		77A8C3D01F1DB1A100414ADB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF4CCFB1B92B9C500A5E95F /* Images.xcassets */; };
+		77A8C3D11F1DB1A100414ADB /* mei.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77306F7E1D86A3D20043AB59 /* mei.jpeg */; };
 		77B0E3471DBF5A2000ACE9D1 /* VCImageCap.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B0E3461DBF5A2000ACE9D1 /* VCImageCap.m */; };
 		77B0E3491DBF5A4000ACE9D1 /* bkgrd.png in Resources */ = {isa = PBXBuildFile; fileRef = 77B0E3481DBF5A4000ACE9D1 /* bkgrd.png */; };
 		77B4F4B81DACC6B0000C3921 /* VCTouchTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B4F4B71DACC6B0000C3921 /* VCTouchTransfer.m */; };
+		77B808881F2741F300F478F5 /* QYVideoRelatedSingleton in Resources */ = {isa = PBXBuildFile; fileRef = 77B808851F2741F300F478F5 /* QYVideoRelatedSingleton */; };
+		77B808891F2741F300F478F5 /* QYVideoRelatedSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B808871F2741F300F478F5 /* QYVideoRelatedSingleton.m */; };
+		77BB68911F0C9571008D0D4B /* VCTableViewControllerOnePixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BB68901F0C9571008D0D4B /* VCTableViewControllerOnePixel.m */; };
 		77BE01C31DB471E200CB73DD /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BE01C21DB471E200CB73DD /* NSString+Helper.m */; };
 		77C2919E1D39EC2C003117C7 /* VCTransparentTransmit.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C2919D1D39EC2C003117C7 /* VCTransparentTransmit.m */; };
 		77C291A11D39EC49003117C7 /* VWTransparent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C291A01D39EC49003117C7 /* VWTransparent.m */; };
@@ -203,6 +312,8 @@
 		7747CBF91D66B9EA0056C8FB /* VCOnePixelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCOnePixelTest.m; sourceTree = "<group>"; };
 		7747CBFB1D66EDAA0056C8FB /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		7747CBFC1D66EDAA0056C8FB /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		77495F951F06413A003E19BD /* VCLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLabelViewController.h; sourceTree = "<group>"; };
+		77495F961F06413A003E19BD /* VCLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLabelViewController.m; sourceTree = "<group>"; };
 		7749F5471D06C9D600D9A1F0 /* VCLocalizeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCLocalizeTest.h; sourceTree = "<group>"; };
 		7749F5481D06C9D600D9A1F0 /* VCLocalizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCLocalizeTest.m; sourceTree = "<group>"; };
 		7753EACF1E23AD2F009BDFDB /* KVWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVWebViewController.h; sourceTree = "<group>"; };
@@ -271,11 +382,18 @@
 		779AA3171E027E6800FD66F7 /* VCUserdefaultest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCUserdefaultest.m; sourceTree = "<group>"; };
 		779AA3381E03F15F00FD66F7 /* VCSynchronize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSynchronize.h; sourceTree = "<group>"; };
 		779AA3391E03F15F00FD66F7 /* VCSynchronize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSynchronize.m; sourceTree = "<group>"; };
+		77A8C3D71F1DB1A100414ADB /* SNTests copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNTests copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A8C3D81F1DB1A100414ADB /* SNTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SNTests copy-Info.plist"; path = "/Users/xukaitian1/Documents/Work/Git/Tests/SNTests copy-Info.plist"; sourceTree = "<absolute>"; };
 		77B0E3451DBF5A2000ACE9D1 /* VCImageCap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCImageCap.h; sourceTree = "<group>"; };
 		77B0E3461DBF5A2000ACE9D1 /* VCImageCap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCImageCap.m; sourceTree = "<group>"; };
 		77B0E3481DBF5A4000ACE9D1 /* bkgrd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bkgrd.png; sourceTree = "<group>"; };
 		77B4F4B61DACC6B0000C3921 /* VCTouchTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTouchTransfer.h; sourceTree = "<group>"; };
 		77B4F4B71DACC6B0000C3921 /* VCTouchTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTouchTransfer.m; sourceTree = "<group>"; };
+		77B808851F2741F300F478F5 /* QYVideoRelatedSingleton */ = {isa = PBXFileReference; lastKnownFileType = folder; path = QYVideoRelatedSingleton; sourceTree = "<group>"; };
+		77B808861F2741F300F478F5 /* QYVideoRelatedSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYVideoRelatedSingleton.h; sourceTree = "<group>"; };
+		77B808871F2741F300F478F5 /* QYVideoRelatedSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYVideoRelatedSingleton.m; sourceTree = "<group>"; };
+		77BB688F1F0C9571008D0D4B /* VCTableViewControllerOnePixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTableViewControllerOnePixel.h; sourceTree = "<group>"; };
+		77BB68901F0C9571008D0D4B /* VCTableViewControllerOnePixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTableViewControllerOnePixel.m; sourceTree = "<group>"; };
 		77BE01C11DB471E200CB73DD /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
 		77BE01C21DB471E200CB73DD /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
 		77C2919C1D39EC2C003117C7 /* VCTransparentTransmit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTransparentTransmit.h; sourceTree = "<group>"; };
@@ -335,6 +453,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		77A8C3B61F1DB1A100414ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A8C3B71F1DB1A100414ADB /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -379,6 +505,7 @@
 				0AF4CCEC1B92B9C500A5E95F /* Products */,
 				25B309CDDB04025296071687 /* Pods */,
 				BD9BC29989D23A49173B7872 /* Frameworks */,
+				77A8C3D81F1DB1A100414ADB /* SNTests copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -387,6 +514,7 @@
 			children = (
 				0AF4CCEB1B92B9C500A5E95F /* SNTests.app */,
 				0AF4CD041B92B9C500A5E95F /* SNTestsTests.xctest */,
+				77A8C3D71F1DB1A100414ADB /* SNTests copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -398,6 +526,9 @@
 				0AF4CD161B92BA4200A5E95F /* Tests */,
 				0AF4CCF21B92B9C500A5E95F /* AppDelegate.h */,
 				0AF4CCF31B92B9C500A5E95F /* AppDelegate.m */,
+				77B808851F2741F300F478F5 /* QYVideoRelatedSingleton */,
+				77B808861F2741F300F478F5 /* QYVideoRelatedSingleton.h */,
+				77B808871F2741F300F478F5 /* QYVideoRelatedSingleton.m */,
 				0AF4CD221B92BBAD00A5E95F /* MainTableViewController.h */,
 				0AF4CD231B92BBAD00A5E95F /* MainTableViewController.m */,
 				0AF4CCF81B92B9C500A5E95F /* Main.storyboard */,
@@ -439,6 +570,8 @@
 		0AF4CD161B92BA4200A5E95F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				77BB688E1F0C94C2008D0D4B /* UITableVIewOnline */,
+				77495F941F064104003E19BD /* labelhint */,
 				77C65F051EAF87F600861955 /* DynamicTable */,
 				7753EACE1E23A849009BDFDB /* TransparentWebView */,
 				779AA3371E03F14800FD66F7 /* Synchronize */,
@@ -599,6 +732,15 @@
 				77751C1A1D682B0C0088291E /* UIView+OnePixelBorder.m */,
 			);
 			path = OnePixe;
+			sourceTree = "<group>";
+		};
+		77495F941F064104003E19BD /* labelhint */ = {
+			isa = PBXGroup;
+			children = (
+				77495F951F06413A003E19BD /* VCLabelViewController.h */,
+				77495F961F06413A003E19BD /* VCLabelViewController.m */,
+			);
+			name = labelhint;
 			sourceTree = "<group>";
 		};
 		7749F5461D06C9C200D9A1F0 /* LocalizeTest */ = {
@@ -778,6 +920,15 @@
 			name = ImageCap;
 			sourceTree = "<group>";
 		};
+		77BB688E1F0C94C2008D0D4B /* UITableVIewOnline */ = {
+			isa = PBXGroup;
+			children = (
+				77BB688F1F0C9571008D0D4B /* VCTableViewControllerOnePixel.h */,
+				77BB68901F0C9571008D0D4B /* VCTableViewControllerOnePixel.m */,
+			);
+			name = UITableVIewOnline;
+			sourceTree = "<group>";
+		};
 		77C65F051EAF87F600861955 /* DynamicTable */ = {
 			isa = PBXGroup;
 			children = (
@@ -945,6 +1096,26 @@
 			productReference = 0AF4CD041B92B9C500A5E95F /* SNTestsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		77A8C3641F1DB1A100414ADB /* SNTests copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A8C3D41F1DB1A100414ADB /* Build configuration list for PBXNativeTarget "SNTests copy" */;
+			buildPhases = (
+				77A8C3651F1DB1A100414ADB /* Check Pods Manifest.lock */,
+				77A8C3661F1DB1A100414ADB /* Sources */,
+				77A8C3B61F1DB1A100414ADB /* Frameworks */,
+				77A8C3B81F1DB1A100414ADB /* Resources */,
+				77A8C3D21F1DB1A100414ADB /* Embed Pods Frameworks */,
+				77A8C3D31F1DB1A100414ADB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNTests copy";
+			productName = SNTests;
+			productReference = 77A8C3D71F1DB1A100414ADB /* SNTests copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -980,6 +1151,7 @@
 			targets = (
 				0AF4CCEA1B92B9C500A5E95F /* SNTests */,
 				0AF4CD031B92B9C500A5E95F /* SNTestsTests */,
+				77A8C3641F1DB1A100414ADB /* SNTests copy */,
 			);
 		};
 /* End PBXProject section */
@@ -1011,6 +1183,7 @@
 				777841351D76D049009C294F /* GIF.gif in Resources */,
 				7721E3371D21120D007537D6 /* collection.png in Resources */,
 				777662751D8E7E97003BA44D /* ybyq.gif in Resources */,
+				77B808881F2741F300F478F5 /* QYVideoRelatedSingleton in Resources */,
 				77B0E3491DBF5A4000ACE9D1 /* bkgrd.png in Resources */,
 				0AF4CCFC1B92B9C500A5E95F /* Images.xcassets in Resources */,
 				77306F7F1D86A3D20043AB59 /* mei.jpeg in Resources */,
@@ -1021,6 +1194,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A8C3B81F1DB1A100414ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A8C3B91F1DB1A100414ADB /* Localizable.strings in Resources */,
+				77A8C3BA1F1DB1A100414ADB /* car.gif in Resources */,
+				77A8C3BB1F1DB1A100414ADB /* shzs.gif in Resources */,
+				77A8C3BC1F1DB1A100414ADB /* qiong.jpeg in Resources */,
+				77A8C3BD1F1DB1A100414ADB /* op.html in Resources */,
+				77A8C3BE1F1DB1A100414ADB /* favorite.png in Resources */,
+				77A8C3BF1F1DB1A100414ADB /* samplemovie.mov in Resources */,
+				77A8C3C01F1DB1A100414ADB /* push.png in Resources */,
+				77A8C3C11F1DB1A100414ADB /* fp.jpg in Resources */,
+				77A8C3C21F1DB1A100414ADB /* AutoLayoutTestViewController.xib in Resources */,
+				77A8C3C31F1DB1A100414ADB /* SingletonTest in Resources */,
+				77A8C3C41F1DB1A100414ADB /* Info.plist in Resources */,
+				77A8C3C51F1DB1A100414ADB /* share.png in Resources */,
+				77A8C3C61F1DB1A100414ADB /* bcg.jpg in Resources */,
+				77A8C3C71F1DB1A100414ADB /* horse.png in Resources */,
+				77A8C3C81F1DB1A100414ADB /* Main.storyboard in Resources */,
+				77A8C3C91F1DB1A100414ADB /* PNG.png in Resources */,
+				77A8C3CA1F1DB1A100414ADB /* memda.jpg in Resources */,
+				77A8C3CB1F1DB1A100414ADB /* LaunchScreen.xib in Resources */,
+				77A8C3CC1F1DB1A100414ADB /* GIF.gif in Resources */,
+				77A8C3CD1F1DB1A100414ADB /* collection.png in Resources */,
+				77A8C3CE1F1DB1A100414ADB /* ybyq.gif in Resources */,
+				77A8C3CF1F1DB1A100414ADB /* bkgrd.png in Resources */,
+				77A8C3D01F1DB1A100414ADB /* Images.xcassets in Resources */,
+				77A8C3D11F1DB1A100414ADB /* mei.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,6 +1245,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A8C3651F1DB1A100414ADB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77A8C3D21F1DB1A100414ADB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A8C3D31F1DB1A100414ADB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AD82D430BE209DC3BB67762B /* Check Pods Manifest.lock */ = {
@@ -1091,6 +1341,7 @@
 				0AF4CCF41B92B9C500A5E95F /* AppDelegate.m in Sources */,
 				779AA3181E027E6800FD66F7 /* VCUserdefaultest.m in Sources */,
 				773F9B861D7D451E0027E2CB /* VCPhysicsEngine.m in Sources */,
+				77495F971F06413A003E19BD /* VCLabelViewController.m in Sources */,
 				7771C39C1D7833EE00DD5194 /* UIImage+animatedGIF.m in Sources */,
 				7747CBFA1D66B9EA0056C8FB /* VCOnePixelTest.m in Sources */,
 				0AF7924F1D4F9F8C00589D71 /* VCTouchAndGesture.m in Sources */,
@@ -1112,6 +1363,7 @@
 				77EC8EC71D816ED60039FB39 /* QYInheritTest.m in Sources */,
 				7771C3A51D79577000DD5194 /* UIImage+Helpers.m in Sources */,
 				7749F5491D06C9D600D9A1F0 /* VCLocalizeTest.m in Sources */,
+				77BB68911F0C9571008D0D4B /* VCTableViewControllerOnePixel.m in Sources */,
 				772804641D616E6A001CD351 /* KVTouchExpandView.m in Sources */,
 				7778413C1D76F7DF009C294F /* VCAnimatest.m in Sources */,
 				770AF4181DDC5AFB009B0804 /* Thread.mm in Sources */,
@@ -1150,6 +1402,7 @@
 				77ED44C81D13A89F00A4277B /* VCPIPTest.m in Sources */,
 				77F814A11CF7E18D00351C41 /* BlockTest.m in Sources */,
 				77B4F4B81DACC6B0000C3921 /* VCTouchTransfer.m in Sources */,
+				77B808891F2741F300F478F5 /* QYVideoRelatedSingleton.m in Sources */,
 				777632E71D30DFD000E4945A /* VCHitest.m in Sources */,
 				771FD1331D3F2EAA004AA3A0 /* ProtocolObj.m in Sources */,
 				77EFCE8F1D1AC17E00153981 /* QYStripViewContainer.m in Sources */,
@@ -1164,6 +1417,92 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF4CD0B1B92B9C500A5E95F /* SNTestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A8C3661F1DB1A100414ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A8C3671F1DB1A100414ADB /* MRCBlockHandler.m in Sources */,
+				77A8C3681F1DB1A100414ADB /* MRC_OBJ.m in Sources */,
+				77A8C3691F1DB1A100414ADB /* VCBased.m in Sources */,
+				77A8C36A1F1DB1A100414ADB /* VCGIFTest.m in Sources */,
+				77A8C36B1F1DB1A100414ADB /* Animate_Autolayout_ViewController.m in Sources */,
+				77A8C36C1F1DB1A100414ADB /* UIView+Draw.m in Sources */,
+				77A8C36D1F1DB1A100414ADB /* VCStripViewTest.m in Sources */,
+				77A8C36E1F1DB1A100414ADB /* VCKVCTest.m in Sources */,
+				77A8C36F1F1DB1A100414ADB /* VCResponderChainTest.m in Sources */,
+				77A8C3701F1DB1A100414ADB /* AppDelegate.m in Sources */,
+				77A8C3711F1DB1A100414ADB /* VCUserdefaultest.m in Sources */,
+				77A8C3721F1DB1A100414ADB /* VCPhysicsEngine.m in Sources */,
+				77A8C3731F1DB1A100414ADB /* VCLabelViewController.m in Sources */,
+				77A8C3741F1DB1A100414ADB /* UIImage+animatedGIF.m in Sources */,
+				77A8C3751F1DB1A100414ADB /* VCOnePixelTest.m in Sources */,
+				77A8C3761F1DB1A100414ADB /* VCTouchAndGesture.m in Sources */,
+				77A8C3771F1DB1A100414ADB /* VCTouchTest.m in Sources */,
+				77A8C3781F1DB1A100414ADB /* SingletonTest.m in Sources */,
+				77A8C3791F1DB1A100414ADB /* VCKVOTest.m in Sources */,
+				77A8C37A1F1DB1A100414ADB /* VCAudioSession.m in Sources */,
+				77A8C37B1F1DB1A100414ADB /* AutoLayoutTestViewController.m in Sources */,
+				77A8C37C1F1DB1A100414ADB /* VWTransparent.m in Sources */,
+				77A8C37D1F1DB1A100414ADB /* VCSimpleTest.m in Sources */,
+				77A8C37E1F1DB1A100414ADB /* KVDrawView.m in Sources */,
+				77A8C37F1F1DB1A100414ADB /* VFLExtensionViewController.m in Sources */,
+				77A8C3801F1DB1A100414ADB /* VCImageCap.m in Sources */,
+				77A8C3811F1DB1A100414ADB /* VCCoreImageTest.m in Sources */,
+				77A8C3821F1DB1A100414ADB /* KVTouchView.m in Sources */,
+				77A8C3831F1DB1A100414ADB /* VCOnePixelBoder.m in Sources */,
+				77A8C3841F1DB1A100414ADB /* MainTableViewController.m in Sources */,
+				77A8C3851F1DB1A100414ADB /* main.m in Sources */,
+				77A8C3861F1DB1A100414ADB /* QYInheritTest.m in Sources */,
+				77A8C3871F1DB1A100414ADB /* UIImage+Helpers.m in Sources */,
+				77A8C3881F1DB1A100414ADB /* VCLocalizeTest.m in Sources */,
+				77A8C3891F1DB1A100414ADB /* VCTableViewControllerOnePixel.m in Sources */,
+				77A8C38A1F1DB1A100414ADB /* KVTouchExpandView.m in Sources */,
+				77A8C38B1F1DB1A100414ADB /* VCAnimatest.m in Sources */,
+				77A8C38C1F1DB1A100414ADB /* Thread.mm in Sources */,
+				77A8C38D1F1DB1A100414ADB /* VCSynchronize.m in Sources */,
+				77A8C38E1F1DB1A100414ADB /* OBJKVC.m in Sources */,
+				77A8C38F1F1DB1A100414ADB /* VCHitVSGesture.m in Sources */,
+				77A8C3901F1DB1A100414ADB /* VCTagTest.m in Sources */,
+				77A8C3911F1DB1A100414ADB /* VCFontHeightest.m in Sources */,
+				77A8C3921F1DB1A100414ADB /* VCCallEachOtherTest.m in Sources */,
+				77A8C3931F1DB1A100414ADB /* VWTansverse.m in Sources */,
+				77A8C3941F1DB1A100414ADB /* KVButtonTest.m in Sources */,
+				77A8C3951F1DB1A100414ADB /* VCUndoRedo.m in Sources */,
+				77A8C3961F1DB1A100414ADB /* VCImageViewModeTest.m in Sources */,
+				77A8C3971F1DB1A100414ADB /* NSLayoutConstraint+Extentsion.m in Sources */,
+				77A8C3981F1DB1A100414ADB /* VCTransformTest.m in Sources */,
+				77A8C3991F1DB1A100414ADB /* VCTransparentTransmit.m in Sources */,
+				77A8C39A1F1DB1A100414ADB /* DrawView.m in Sources */,
+				77A8C39B1F1DB1A100414ADB /* BlockTestMRC.m in Sources */,
+				77A8C39C1F1DB1A100414ADB /* QYStripButton.m in Sources */,
+				77A8C39D1F1DB1A100414ADB /* VCDecouple.m in Sources */,
+				77A8C39E1F1DB1A100414ADB /* VCSerialQueue.m in Sources */,
+				77A8C39F1F1DB1A100414ADB /* KVWebViewController.m in Sources */,
+				77A8C3A01F1DB1A100414ADB /* VCInherit.m in Sources */,
+				77A8C3A11F1DB1A100414ADB /* VCProtocol.m in Sources */,
+				77A8C3A21F1DB1A100414ADB /* RegexTestViewController.m in Sources */,
+				77A8C3A31F1DB1A100414ADB /* NSString+Regex.m in Sources */,
+				77A8C3A41F1DB1A100414ADB /* KVSpayButton.m in Sources */,
+				77A8C3A51F1DB1A100414ADB /* UIView+OnePixelBorder.m in Sources */,
+				77A8C3A61F1DB1A100414ADB /* VCShelterTest.m in Sources */,
+				77A8C3A71F1DB1A100414ADB /* ObjCall.m in Sources */,
+				77A8C3A81F1DB1A100414ADB /* TCDynamicTable.m in Sources */,
+				77A8C3A91F1DB1A100414ADB /* VCSubViewHierarchy.m in Sources */,
+				77A8C3AA1F1DB1A100414ADB /* MRC_OBC2.m in Sources */,
+				77A8C3AB1F1DB1A100414ADB /* VCHitestTransverse.m in Sources */,
+				77A8C3AC1F1DB1A100414ADB /* VWBorder.m in Sources */,
+				77A8C3AD1F1DB1A100414ADB /* VCPIPTest.m in Sources */,
+				77A8C3AE1F1DB1A100414ADB /* BlockTest.m in Sources */,
+				77A8C3AF1F1DB1A100414ADB /* VCTouchTransfer.m in Sources */,
+				77A8C3B01F1DB1A100414ADB /* VCHitest.m in Sources */,
+				77A8C3B11F1DB1A100414ADB /* ProtocolObj.m in Sources */,
+				77A8C3B21F1DB1A100414ADB /* QYStripViewContainer.m in Sources */,
+				77A8C3B31F1DB1A100414ADB /* SvGifView.m in Sources */,
+				77A8C3B41F1DB1A100414ADB /* KVOView.m in Sources */,
+				77A8C3B51F1DB1A100414ADB /* NSString+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1305,6 +1644,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = SNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1312,6 +1652,11 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "8627ffa0-0961-488c-8386-acb1618185fe";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Weverything",
+				);
 			};
 			name = Debug;
 		};
@@ -1322,6 +1667,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = SNTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1366,6 +1712,79 @@
 			};
 			name = Release;
 		};
+		77A8C3D51F1DB1A100414ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26FD641ACFBD9596A81B51E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = "SNTests copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_NO_PIE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Aspects\"",
+					"-l\"Masonry\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"UIKit\"",
+					lgcov,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelven.SNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8627ffa0-0961-488c-8386-acb1618185fe";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Weverything",
+				);
+			};
+			name = Debug;
+		};
+		77A8C3D61F1DB1A100414ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D13F7098E6E34A888844EF0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Hang Mi (PHRL6ZNE9K)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				INFOPLIST_FILE = "SNTests copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_NO_PIE = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Aspects\"",
+					"-l\"Masonry\"",
+					"-l\"SDWebImage\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"UIKit\"",
+					lgcov,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelven.SNTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8627ffa0-0961-488c-8386-acb1618185fe";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1392,6 +1811,15 @@
 			buildConfigurations = (
 				0AF4CD121B92B9C500A5E95F /* Debug */,
 				0AF4CD131B92B9C500A5E95F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A8C3D41F1DB1A100414ADB /* Build configuration list for PBXNativeTarget "SNTests copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A8C3D51F1DB1A100414ADB /* Debug */,
+				77A8C3D61F1DB1A100414ADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

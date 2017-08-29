@@ -40,6 +40,8 @@
 
 -(void)addRow
 {
+    NSLog(@"ddd:%@",[NSNumber numberWithUnsignedInteger: arc4random()%3]);
+    return;
     [self.tableView beginUpdates];
     
 

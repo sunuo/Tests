@@ -47,6 +47,8 @@
 #import "VCSynchronize.h"
 #import "KVWebViewController.h"
 #import "TCDynamicTable.h"
+#import "VCLabelViewController.h"
+#import "VCTableViewControllerOnePixel.h"
 #define KEY_NAME @"name"
 #define KEY_CLASS @"CLASS"
 #define ADD_CONTROLLER(key,class) [self.aryContent addObject:@{KEY_NAME:(key),KEY_CLASS:(class)}];
@@ -60,7 +62,8 @@
 
 
     [super viewDidLoad];
-    
+    ADD_CONTROLLER(@"VCTableViewControllerOnePixel",[VCTableViewControllerOnePixel class]);
+    ADD_CONTROLLER(@"VCLabelViewController",[VCLabelViewController class]);
     ADD_CONTROLLER(@"TCDynamicTable",[TCDynamicTable class]);
     ADD_CONTROLLER(@"KVWebViewController",[KVWebViewController class]);
     ADD_CONTROLLER(@"VCSynchronize",[VCSynchronize class]);
@@ -111,6 +114,11 @@
 //        _attachmentBehavior
 //    }
 //}
+
+-(void)kaitiantest
+{
+    
+}
 
 -(UIDynamicAnimator*)dynamicAnimator
 {

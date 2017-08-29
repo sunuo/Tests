@@ -11,6 +11,9 @@
 #define SNTests_Header_h
 
 
+#define UIColorFromRGBA(rgbValue, alphav)	[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(alphav)]
+
+#define RGBACOLOR(r,g,b,a)  [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
 
 #define kMainScreenScale [UIScreen mainScreen].scale
 #define SINGLE_LINE_WIDTH           (1 / [UIScreen mainScreen].scale)

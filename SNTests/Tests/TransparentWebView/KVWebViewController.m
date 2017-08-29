@@ -8,8 +8,8 @@
 
 #import "KVWebViewController.h"
 static void* ccccontext = &ccccontext;
-@interface KVWebViewController ()
-
+@interface KVWebViewController ()<UIWebViewDelegate>
+@property(nonatomic,strong)UIWebView* web;
 @end
 
 @implementation KVWebViewController
@@ -25,23 +25,58 @@ static void* ccccontext = &ccccontext;
 //
     [self.view setBackgroundColor:[UIColor redColor]];
     
-    UIWebView* webview = [[UIWebView alloc] initWithFrame:self.view.bounds];
-    [webview loadHTMLString:@"<!DOCTYPE HTML>\
-    <html>\
-    <body>\
-    <p>fsdfasdfasdf\
-    <img src=\"http://img2.ph.126.net/wE6-IE15OzTzKUzy3X5izA==/2212956266999766098.png\" width=\"284\" height=\"300\" />\
-    </p>\
-    </body>\
-    </html>" baseURL:nil];
+    CGRect rect = self.view.bounds;
+    rect.origin.y = 64;
+    UIWebView* webview = [[UIWebView alloc] initWithFrame:rect];
+//    [webview loadHTMLString:@"<!DOCTYPE HTML>\
+//    <html>\
+//    <body>\
+//    <p>fsdfasdfasdf\
+//    <img src=\"http://img2.ph.126.net/wE6-IE15OzTzKUzy3X5izA==/2212956266999766098.png\" width=\"284\" height=\"300\" />\
+//    </p>\
+//    </body>\
+//    </html>" baseURL:nil];
 
-    
-//    [webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
+    self.automaticallyAdjustsScrollViewInsets = YES;
+    [webview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.baidu.com"]]];
     
     webview.opaque = NO;
     [webview setBackgroundColor:[UIColor clearColor]];
+    self.web = webview;
+    self.web.delegate = self;
     [self.view addSubview:webview];
+    
+//    [self request];
 }
+
+
+-(void)request
+{
+    [self performSelector:@selector(request) withObject:nil afterDelay:0.1];
+    NSLog(@"request");
+    
+    NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"http://gaoxueya.gorgonor.com/h5/hyperMeeting/voteDoctor?group=1&doctor=yes"]];
+    [request setHTTPMethod:@"POST"];
+    
+    
+    [self.web loadRequest:request];
+    
+}
+
+
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    NSLog(@"request statrt");
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    NSHTTPCookieStorage* cookie = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    NSArray* array = cookie.cookies;
+    NSLog(@"request finish");
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
